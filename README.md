@@ -5,71 +5,37 @@ nodes-own
 [ID
   ;; this is used to mark turtles we have already visited
   explored?
-
- short
-  short0
-  short_aa short_ab short_ac short_ad short_ae short_af short_ag short_ah short_ai short_aj short_ak short_al short_am short_an short_ao short_ap short_aq short_ar short_as short_at short_au short_av short_aw short_ax short_ay short_az
-  short1
-  short_ba short_bb short_bc short_bd short_be short_bf short_bg short_bh short_bi short_bj short_bk short_bl short_bm short_bn short_bo short_bp short_bq short_br short_bs short_bt short_bu short_bv short_bw short_bx short_by short_bz
-  short2 shortc
-  short3 shortd
-  short4 shorte
-  short5 shortf
-  short6 shortg
-  short7 shorth
-  short8 shorti
-  short9 shortj
-  short10 shortk
-  short11 shortl
-  short12 shortm
-  short13 shortn
-  short14
-  short_oa short_ob short_oc short_od short_oe short_of short_og short_oh short_oi short_oj short_ok short_ol short_om short_on short_oo short_op short_oq short_or short_os short_ot short_ou short_ov short_ow short_ox short_oy short_oz
-  short15 shortp
-  short16 shortq
-  short17 shortr
-  short18 shorts
-  short19 shortt
-  short20
-  short_ua short_ub short_uc short_ud short_ue short_uf short_ug short_uh short_ui short_uj short_uk short_ul short_um short_un short_uo short_up short_uq short_ur short_us short_ut short_uu short_uv short_uw short_ux short_uy short_uz
-  short21 shortv
-  short22 shortw
-  short23 shortx
-  short24 shorty
-  short25
-  short_za short_zb short_zc short_zd short_ze short_zf short_zg short_zh short_zi short_zj short_zk short_zl short_zm short_zn short_zo short_zp short_zq short_zr short_zs short_zt short_zu short_zv short_zw short_zx short_zy short_zz
-
-   path path0 path1 path2 path3 path4 path5 path6 path7 path8 path9 path10 path11 path12 path13 path14 path15 path16 path17 path18 path19 path20 path21 path22 path23 path24 path25
-  j
-
-  cluster0
-  cluster1
-  cluster2
-  cluster3
-  cluster4
-  cluster5
-  cluster6
-  cluster7
-  cluster8
-  cluster9
-  cluster10
-  cluster11
-  cluster12
-  cluster13
-  cluster14
-  cluster15
-  cluster16
-  cluster17
-  cluster18
-  cluster19
-  cluster20
-  cluster21
-  cluster22
-  cluster23
-  cluster24
-  cluster25
-
-
+ In_Links Out_links
+  indeg
+  outdeg
+closeness
+  betweenness
+  eigenvector
+  indeg0
+  ki0 ki1 ki2 ki3 ki4 ki5 ki6 ki7 ki8 ki9 ki10 ki11 ki12 ki13 ki14 ki15 ki16 ki17 ki18 ki19 ki20 ki21 ki22 ki23 ki24 ki25 ki26
+ ko0 ko1 ko2 ko3 ko4 ko5 ko6 ko7 ko8 ko9 ko10 ko11 ko12 ko13 ko14 ko15 ko16 ko17 ko18 ko19 ko20 ko21 ko22 ko23 ko24 ko25 ko26
+ ODc0 ODc1 ODc2 ODc3 ODc4 ODc5 ODc6 ODc7 ODc8 ODc9 ODc10 ODc11 ODc12 ODc13 ODc14 ODc15 ODc16 ODc17 ODc18 ODc19 ODc20 ODc21 ODc22 ODc23 ODc24 ODc25 ODc26
+ IDc0 IDc1 IDc2 IDc3 IDc4 IDc5 IDc6 IDc7 IDc8 IDc9 IDc10 IDc11 IDc12 IDc13 IDc14 IDc15 IDc16 IDc17 IDc18 IDc19 IDc20 IDc21 IDc22 IDc23 IDc24 IDc25 IDc26
+ Cc0 Cc1 Cc2 Cc3 Cc4 Cc5 Cc6 Cc7 Cc8 Cc9 Cc10 Cc11 Cc12 Cc13 Cc14 Cc15 Cc16 Cc17 Cc18 Cc19 Cc20 Cc21 Cc22 Cc23 Cc24 Cc25 Cc26
+ Bc0 Bc1 Bc2 Bc3 Bc4 Bc5 Bc6 Bc7 Bc8 Bc9 Bc10 Bc11 Bc12 Bc13 Bc14 Bc15 Bc16 Bc17 Bc18 Bc19 Bc20 Bc21 Bc22 Bc23 Bc24 Bc25 Bc26
+ Ec0 Ec1 Ec2 Ec3 Ec4 Ec5 Ec6 Ec7 Ec8 Ec9 Ec10 Ec11 Ec12 Ec13 Ec14 Ec15 Ec16 Ec17 Ec18 Ec19 Ec20 Ec21 Ec22 Ec23 Ec24 Ec25 Ec26
+  short
+ short_i short_TR short_R short_F short_T short_n short_S short_Cp short_pHg short_Xg short_Cc short_foc short_pHw short_Tw short_pw short_Ew short_Iw short_Aw short_DOC short_pHm short_Tm short_pm short_Em short_Im short_Am short_t short_Xm
+ short_0 short_1 short_2 short_3 short_4 short_5 short_6 short_7 short_8 short_9 short_10 short_11 short_12 short_13 short_14 short_15 short_16 short_17 short_18 short_19 short_20 short_21 short_22 short_23 short_24 short_25 short_26
+ short_0_0 short_0_1 short_0_2 short_0_3 short_0_4 short_0_5 short_0_6 short_0_7 short_0_8 short_0_9 short_0_10 short_0_11 short_0_12 short_0_13 short_0_14 short_0_15 short_0_16 short_0_17 short_0_18 short_0_19 short_0_20 short_0_21 short_0_22 short_0_23 short_0_24 short_0_25 short_0_26
+ short_1_0 short_1_1 short_1_2 short_1_3 short_1_4 short_1_5 short_1_6 short_1_7 short_1_8 short_1_9 short_1_10 short_1_11 short_1_12 short_1_13 short_1_14 short_1_15 short_1_16 short_1_17 short_1_18 short_1_19 short_1_20 short_1_21 short_1_22 short_1_23 short_1_24 short_1_25 short_1_26
+ short_19_0 short_19_1 short_19_2 short_19_3 short_19_4 short_19_5 short_19_6 short_19_7 short_19_8 short_19_9 short_19_10 short_19_11 short_19_12 short_19_13 short_19_14 short_19_15 short_19_16 short_19_17 short_19_18 short_19_19 short_19_20 short_19_21 short_19_22 short_19_23 short_19_24 short_19_25 short_19_26
+ short_20_0 short_20_1 short_20_2 short_20_3 short_20_4 short_20_5 short_20_6 short_20_7 short_20_8 short_20_9 short_20_10 short_20_11 short_20_12 short_20_13 short_20_14 short_20_15 short_20_16 short_20_17 short_20_18 short_20_19 short_20_20 short_20_21 short_20_22 short_20_23 short_20_24 short_20_25 short_20_26
+ short_21_0 short_21_1 short_21_2 short_21_3 short_21_4 short_21_5 short_21_6 short_21_7 short_21_8 short_21_9 short_21_10 short_21_11 short_21_12 short_21_13 short_21_14 short_21_15 short_21_16 short_21_17 short_21_18 short_21_19 short_21_20 short_21_21 short_21_22 short_21_23 short_21_24 short_21_25 short_21_26
+ short_22_0 short_22_1 short_22_2 short_22_3 short_22_4 short_22_5 short_22_6 short_22_7 short_22_8 short_22_9 short_22_10 short_22_11 short_22_12 short_22_13 short_22_14 short_22_15 short_22_16 short_22_17 short_22_18 short_22_19 short_22_20 short_22_21 short_22_22 short_22_23 short_22_24 short_22_25 short_22_26
+ short_23_0 short_23_1 short_23_2 short_23_3 short_23_4 short_23_5 short_23_6 short_23_7 short_23_8 short_23_9 short_23_10 short_23_11 short_23_12 short_23_13 short_23_14 short_23_15 short_23_16 short_23_17 short_23_18 short_23_19 short_23_20 short_23_21 short_23_22 short_23_23 short_23_24 short_23_25 short_23_26
+ short_24_0 short_24_1 short_24_2 short_24_3 short_24_4 short_24_5 short_24_6 short_24_7 short_24_8 short_24_9 short_24_10 short_24_11 short_24_12 short_24_13 short_24_14 short_24_15 short_24_16 short_24_17 short_24_18 short_24_19 short_24_20 short_24_21 short_24_22 short_24_23 short_24_24 short_24_25 short_24_26
+ short_25_0 short_25_1 short_25_2 short_25_3 short_25_4 short_25_5 short_25_6 short_25_7 short_25_8 short_25_9 short_25_10 short_25_11 short_25_12 short_25_13 short_25_14 short_25_15 short_25_16 short_25_17 short_25_18 short_25_19 short_25_20 short_25_21 short_25_22 short_25_23 short_25_24 short_25_25 short_25_26
+ short_26_0 short_26_1 short_26_2 short_26_3 short_26_4 short_26_5 short_26_6 short_26_7 short_26_8 short_26_9 short_26_10 short_26_11 short_26_12 short_26_13 short_26_14 short_26_15 short_26_16 short_26_17 short_26_18 short_26_19 short_26_20 short_26_21 short_26_22 short_26_23 short_26_24 short_26_25 short_26_26
+ path
+ path0 path1 path2 path3 path4 path5 path6 path7 path8 path9 path10 path11 path12 path13 path14 path15 path16 path17 path18 path19 path20 path21 path22 path23 path24 path25 path26
+ j ;loop connector
+ cluster0 cluster1 cluster2 cluster3 cluster4 cluster5 cluster6 cluster7 cluster8 cluster9 cluster10 cluster11 cluster12 cluster13 cluster14 cluster15 cluster16 cluster17 cluster18 cluster19 cluster20 cluster21 cluster22 cluster23 cluster24 cluster25 cluster26
 ]
 
 
@@ -80,8 +46,14 @@ globals
   giant-component-size    ;; number of turtles in the giant component
   giant-start-node        ;; node from where we started exploring the giant component
   pathlength              ;; sum of the path lengths between all nodes in the network
-  meancluster             ;; mean cluster of the network
-  pathposs
+  Mean_cluster             ;; mean cluster of the network
+  possiblepaths
+  CharPL
+  N
+  L_in
+  L_out
+
+
   ]
 
 
@@ -96,2502 +68,1516 @@ to setup
     set pcolor white
   ]
 
+;Formation of nodes
+;factor i
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color magenta
   ]
 
+;factor TR
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color magenta
   ]
 
+;factor R
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color green
   ]
 
+;factor F
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color green
   ]
 
+;factor T
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color lime
   ]
 
+;factor n
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color lime
   ]
 
+;factor S
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color lime
   ]
 
+;factor Cp
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color lime
   ]
 
-create-nodes 1[;who...0.....num-node-1
-  set shape "circle"
-  setxy random-pxcor random-pycor
-  set color lime
-  ]
-
-create-nodes 1[;who...0.....num-node-1
-  set shape "circle"
-  setxy random-pxcor random-pycor
-  set color lime
-  ]
-
+;factor pHg
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color orange
   ]
 
+;factor Xg
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color orange
   ]
 
+;factor Cc
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color orange
   ]
 
+;factor foc
+create-nodes 1[;who...0.....num-node-1
+  set shape "circle"
+  setxy random-pxcor random-pycor
+  set color orange
+  ]
+
+;factor pHw
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color cyan
   ]
 
+;factor Tw
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color cyan
   ]
 
+;factor pw
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color cyan
   ]
 
+;factor Ew
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color cyan
   ]
 
+;factor Iw
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color cyan
   ]
 
+;factor Aw
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color cyan
   ]
 
+;factor DOC
+create-nodes 1[;who...0.....num-node-1
+  set shape "circle"
+  setxy random-pxcor random-pycor
+  set color cyan
+  ]
+
+;factor pHm
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color violet
   ]
 
+;factor Tm
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color violet
   ]
 
+;factor pm
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color violet
   ]
 
+;factor Em
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color violet
   ]
 
+;factor Im
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color violet
   ]
 
+;factor Am
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color violet
   ]
 
+;factor t
 create-nodes 1[;who...0.....num-node-1
   set shape "circle"
   setxy random-pxcor random-pycor
   set color violet
   ]
 
+;factor Xm
+create-nodes 1[;who...0.....num-node-1
+  set shape "circle"
+  setxy random-pxcor random-pycor
+  set color violet
+  ]
+
+;Formation of links between factors
+
+  ;Links between i and other factors
   ask node 0 [ create-link-to node 2  ]
   ask node 0 [ create-link-to node 3  ]
+  ask node 0 [ create-link-to node 7  ]
   ask node 0 [ create-link-to node 9  ]
-  ask node 0 [ create-link-to node 10  ]
-  ask node 0 [ create-link-to node 15  ]
-  ask node 0 [ create-link-to node 16  ]
-  ask node 0 [ create-link-to node 17  ]
-  ask node 0 [ create-link-to node 18  ]
   ask node 0 [ create-link-to node 19  ]
+  ask node 0 [ create-link-to node 20  ]
   ask node 0 [ create-link-to node 21  ]
   ask node 0 [ create-link-to node 22  ]
   ask node 0 [ create-link-to node 23  ]
+  ask node 0 [ create-link-to node 24  ]
+  ask node 0 [ create-link-to node 26  ]
 
+  ;Links between TR and other factors
   ask node 1 [ create-link-to node 0  ]
   ask node 1 [ create-link-to node 3  ]
-  ask node 1 [ create-link-to node 11  ]
+  ask node 1 [ create-link-to node 9  ]
+  ask node 1 [ create-link-to node 26  ]
 
-  ask node 2 [ create-link-to node 3 ]
+  ;No out-going links from R to other factors
 
+
+
+  ;Links between F and other factors
   ask node 3 [ create-link-to node 2  ]
   ask node 3 [ create-link-to node 6  ]
+  ask node 3 [ create-link-to node 7  ]
   ask node 3 [ create-link-to node 9  ]
-  ask node 3 [ create-link-to node 10  ]
   ask node 3 [ create-link-to node 12  ]
+  ask node 3 [ create-link-to node 13  ]
+  ask node 3 [ create-link-to node 14  ]
   ask node 3 [ create-link-to node 15  ]
-  ask node 3 [ create-link-to node 16  ]
-  ask node 3 [ create-link-to node 17  ]
   ask node 3 [ create-link-to node 18  ]
-  ask node 3 [ create-link-to node 21  ]
-  ask node 3 [ create-link-to node 22  ]
-  ask node 3 [ create-link-to node 23  ]
-  ask node 3 [ create-link-to node 24  ]
 
-  ask node 4 [ create-link-to node 3  ]
+  ;Links between T and other factors
   ask node 4 [ create-link-to node 5  ]
   ask node 4 [ create-link-to node 6  ]
-  ask node 4 [ create-link-to node 9  ]
+  ask node 4 [ create-link-to node 7  ]
+  ask node 4 [ create-link-to node 14  ]
   ask node 4 [ create-link-to node 15  ]
   ask node 4 [ create-link-to node 16  ]
   ask node 4 [ create-link-to node 17  ]
   ask node 4 [ create-link-to node 18  ]
-  ask node 4 [ create-link-to node 21  ]
-  ask node 4 [ create-link-to node 22  ]
-  ask node 4 [ create-link-to node 23  ]
-  ask node 4 [ create-link-to node 24  ]
 
+  ;Links between n and other factors
   ask node 5 [ create-link-to node 3  ]
   ask node 5 [ create-link-to node 9  ]
-  ask node 5 [ create-link-to node 10  ]
+  ask node 5 [ create-link-to node 14  ]
   ask node 5 [ create-link-to node 15  ]
   ask node 5 [ create-link-to node 16  ]
   ask node 5 [ create-link-to node 17  ]
   ask node 5 [ create-link-to node 18  ]
-  ask node 5 [ create-link-to node 21  ]
-  ask node 5 [ create-link-to node 22  ]
-  ask node 5 [ create-link-to node 23  ]
-  ask node 5 [ create-link-to node 24  ]
 
+  ;Links between S and other factors
   ask node 6 [ create-link-to node 4  ]
-  ask node 6 [ create-link-to node 5  ]
   ask node 6 [ create-link-to node 7  ]
-  ask node 6 [ create-link-to node 9  ]
-  ask node 6 [ create-link-to node 10  ]
+  ask node 6 [ create-link-to node 14 ]
 
+  ;Links between Cp and other factors
   ask node 7 [ create-link-to node 3  ]
+  ask node 7 [ create-link-to node 4  ]
   ask node 7 [ create-link-to node 5  ]
-  ask node 7 [ create-link-to node 6  ]
   ask node 7 [ create-link-to node 9  ]
+  ask node 7 [ create-link-to node 10  ]
+  ask node 7 [ create-link-to node 14  ]
   ask node 7 [ create-link-to node 15  ]
-  ask node 7 [ create-link-to node 16  ]
-  ask node 7 [ create-link-to node 17  ]
-  ask node 7 [ create-link-to node 18  ]
-  ask node 7 [ create-link-to node 21  ]
-  ask node 7 [ create-link-to node 22  ]
-  ask node 7 [ create-link-to node 23  ]
-  ask node 7 [ create-link-to node 24  ]
 
-  ask node 8 [ create-link-to node 7  ]
-  ask node 8 [ create-link-to node 11  ]
-  ask node 8 [ create-link-to node 15  ]
-  ask node 8 [ create-link-to node 21  ]
+  ;Links between pHg and other factors
+  ask node 8 [ create-link-to node 9  ]
 
-  ask node 9 [ create-link-to node 3  ]
+  ;Links between Xg and other factors
   ask node 9 [ create-link-to node 4  ]
   ask node 9 [ create-link-to node 5  ]
-  ask node 9 [ create-link-to node 7  ]
-  ask node 9 [ create-link-to node 8  ]
   ask node 9 [ create-link-to node 11  ]
-  ask node 9 [ create-link-to node 12  ]
+  ask node 9 [ create-link-to node 14  ]
   ask node 9 [ create-link-to node 15  ]
-  ask node 9 [ create-link-to node 16  ]
   ask node 9 [ create-link-to node 18  ]
-  ask node 9 [ create-link-to node 21  ]
-  ask node 9 [ create-link-to node 22  ]
-  ask node 9 [ create-link-to node 23  ]
-  ask node 9 [ create-link-to node 24  ]
 
+  ;Links between Cc and other factors
+  ask node 10 [ create-link-to node 8  ]
   ask node 10 [ create-link-to node 11  ]
-  ask node 10 [ create-link-to node 13  ]
+  ask node 10 [ create-link-to node 14  ]
+  ask node 10 [ create-link-to node 15  ]
+  ask node 10 [ create-link-to node 16  ]
+  ask node 10 [ create-link-to node 17  ]
+  ask node 10 [ create-link-to node 18  ]
 
-  ask node 11 [ create-link-to node 4  ]
-  ask node 11 [ create-link-to node 5  ]
-  ask node 11 [ create-link-to node 7  ]
+  ;Links between foc and other factors
+  ask node 11 [ create-link-to node 2  ]
+  ask node 11 [ create-link-to node 3  ]
+  ask node 11 [ create-link-to node 6  ]
   ask node 11 [ create-link-to node 8  ]
-  ask node 11 [ create-link-to node 13  ]
-  ask node 11 [ create-link-to node 16  ]
-  ask node 11 [ create-link-to node 19  ]
-  ask node 11 [ create-link-to node 22  ]
+  ask node 11 [ create-link-to node 9  ]
+  ask node 11 [ create-link-to node 10  ]
+  ask node 11 [ create-link-to node 12  ]
+  ask node 11 [ create-link-to node 15  ]
+  ask node 11 [ create-link-to node 18  ]
 
+  ;Links between pHw and other factors
+  ask node 12 [ create-link-to node 8  ]
+  ask node 12 [ create-link-to node 9  ]
   ask node 12 [ create-link-to node 10  ]
+  ask node 12 [ create-link-to node 15  ]
+  ask node 12 [ create-link-to node 16  ]
+  ask node 12 [ create-link-to node 17  ]
+  ask node 12 [ create-link-to node 18  ]
 
+  ;Links between Tw and other factors
   ask node 13 [ create-link-to node 9  ]
-  ask node 13 [ create-link-to node 10  ]
-  ask node 13 [ create-link-to node 11  ]
-  ask node 13 [ create-link-to node 12  ]
   ask node 13 [ create-link-to node 15  ]
   ask node 13 [ create-link-to node 16  ]
 
-  ask node 14 [ create-link-to node 3  ]
+  ;Links between pw and other factors
   ask node 14 [ create-link-to node 4  ]
   ask node 14 [ create-link-to node 5  ]
-  ask node 14 [ create-link-to node 7  ]
-  ask node 14 [ create-link-to node 11  ]
-  ask node 14 [ create-link-to node 15  ]
-  ask node 14 [ create-link-to node 16  ]
-  ask node 14 [ create-link-to node 17  ]
 
-  ask node 15 [ create-link-to node 3  ]
-  ask node 15 [ create-link-to node 4  ]
-  ask node 15 [ create-link-to node 5  ]
-  ask node 15 [ create-link-to node 7  ]
-  ask node 15 [ create-link-to node 8  ]
+  ;Links between Ew and other factors
   ask node 15 [ create-link-to node 9  ]
-  ask node 15 [ create-link-to node 11  ]
-  ask node 15 [ create-link-to node 17  ]
-  ask node 15 [ create-link-to node 18  ]
 
-  ask node 16 [ create-link-to node 11  ]
+  ;Links between Iw and other factors
+  ask node 16 [ create-link-to node 8  ]
+  ask node 16 [ create-link-to node 10  ]
+  ask node 16 [ create-link-to node 12  ]
+  ask node 16 [ create-link-to node 14  ]
+  ask node 16 [ create-link-to node 17  ]
+  ask node 16 [ create-link-to node 18  ]
 
+  ;Links between Aw and other factors
+  ask node 17 [ create-link-to node 8  ]
   ask node 17 [ create-link-to node 9  ]
   ask node 17 [ create-link-to node 12  ]
-  ask node 17 [ create-link-to node 15  ]
+  ask node 17 [ create-link-to node 16  ]
+  ask node 17 [ create-link-to node 18  ]
 
-  ask node 18 [ create-link-to node 3  ]
-  ask node 18 [ create-link-to node 11  ]
-  ask node 18 [ create-link-to node 13  ]
+  ;Links between DOC and other factors
+  ask node 18 [ create-link-to node 8  ]
+  ask node 18 [ create-link-to node 9  ]
+  ask node 18 [ create-link-to node 12  ]
+  ask node 18 [ create-link-to node 14  ]
+  ask node 18 [ create-link-to node 15  ]
+  ask node 18 [ create-link-to node 16  ]
   ask node 18 [ create-link-to node 17  ]
 
-  ask node 19 [ create-link-to node 10  ]
-  ask node 19 [ create-link-to node 11  ]
+  ;Links between pHm and other factors
   ask node 19 [ create-link-to node 12  ]
-  ask node 19 [ create-link-to node 13  ]
   ask node 19 [ create-link-to node 21  ]
   ask node 19 [ create-link-to node 22  ]
+  ask node 19 [ create-link-to node 26  ]
 
+  ;Links between Tm and other factors
   ask node 20 [ create-link-to node 3  ]
-  ask node 20 [ create-link-to node 4  ]
-  ask node 20 [ create-link-to node 5  ]
-  ask node 20 [ create-link-to node 7  ]
-  ask node 20 [ create-link-to node 9  ]
-  ask node 20 [ create-link-to node 11  ]
-  ask node 20 [ create-link-to node 14  ]
+  ask node 20 [ create-link-to node 13  ]
   ask node 20 [ create-link-to node 22  ]
   ask node 20 [ create-link-to node 23  ]
+  ask node 20 [ create-link-to node 26  ]
 
+  ;Links between pm and other factors
   ask node 21 [ create-link-to node 3  ]
   ask node 21 [ create-link-to node 4  ]
   ask node 21 [ create-link-to node 5  ]
-  ask node 21 [ create-link-to node 7  ]
-  ask node 21 [ create-link-to node 8  ]
   ask node 21 [ create-link-to node 9  ]
-  ask node 21 [ create-link-to node 11  ]
-  ask node 21 [ create-link-to node 15  ]
-  ask node 21 [ create-link-to node 23  ]
-  ask node 21 [ create-link-to node 24  ]
+  ask node 21 [ create-link-to node 14  ]
 
-  ask node 22 [ create-link-to node 11  ]
-  ask node 22 [ create-link-to node 16  ]
+  ;Links between Em and other factors
+  ask node 22 [ create-link-to node 9  ]
+  ask node 22 [ create-link-to node 15  ]
+  ask node 22 [ create-link-to node 26  ]
 
-  ask node 23 [ create-link-to node 10  ]
+  ;Links between Im and other factors
+  ask node 23 [ create-link-to node 8  ]
   ask node 23 [ create-link-to node 12  ]
-  ask node 23 [ create-link-to node 17  ]
+  ask node 23 [ create-link-to node 16  ]
   ask node 23 [ create-link-to node 21  ]
+  ask node 23 [ create-link-to node 26  ]
 
+  ;Links between Am and other factors
   ask node 24 [ create-link-to node 3  ]
-  ask node 24 [ create-link-to node 10  ]
-  ask node 24 [ create-link-to node 11  ]
-  ask node 24 [ create-link-to node 18  ]
+  ask node 24 [ create-link-to node 17  ]
   ask node 24 [ create-link-to node 19  ]
   ask node 24 [ create-link-to node 23  ]
+  ask node 24 [ create-link-to node 26  ]
 
-  ask node 25 [ create-link-to node 10  ]
-  ask node 25 [ create-link-to node 16  ]
+  ;Links between t and other factors
   ask node 25 [ create-link-to node 19  ]
+  ask node 25 [ create-link-to node 22  ]
+  ask node 25 [ create-link-to node 23  ]
   ask node 25 [ create-link-to node 24  ]
+  ask node 25 [ create-link-to node 26  ]
 
+  ;Links between Xm and other factors
+  ask node 26 [ create-link-to node 4  ]
+  ask node 26 [ create-link-to node 5  ]
+  ask node 26 [ create-link-to node 12  ]
+  ask node 26 [ create-link-to node 14  ]
+  ask node 26 [ create-link-to node 15  ]
+  ask node 26 [ create-link-to node 19  ]
+  ask node 26 [ create-link-to node 21  ]
+  ask node 26 [ create-link-to node 22  ]
+  ask node 26 [ create-link-to node 24  ]
 
 
 find-all-components
 color-giant-component
 
- nw:set-context (nodes with [color = red] ) (links)
+nw:set-context (nodes with [color = red] ) (links)
 
-  ask node 0 [ set short_aa nw:distance-to node 0 ]
-  ask node 0 [ set short_ab nw:distance-to node 1 ]
-  ask node 0 [ set short_ac nw:distance-to node 2 ]
-  ask node 0 [ set short_ad nw:distance-to node 3 ]
-  ask node 0 [ set short_ae nw:distance-to node 4 ]
-  ask node 0 [ set short_af nw:distance-to node 5 ]
-  ask node 0 [ set short_ag nw:distance-to node 6 ]
-  ask node 0 [ set short_ah nw:distance-to node 7 ]
-  ask node 0 [ set short_ai nw:distance-to node 8 ]
-  ask node 0 [ set short_aj nw:distance-to node 9 ]
-  ask node 0 [ set short_ak nw:distance-to node 10 ]
-  ask node 0 [ set short_al nw:distance-to node 11 ]
-  ask node 0 [ set short_am nw:distance-to node 12 ]
-  ask node 0 [ set short_an nw:distance-to node 13 ]
-  ask node 0 [ set short_ao nw:distance-to node 14 ]
-  ask node 0 [ set short_ap nw:distance-to node 15 ]
-  ask node 0 [ set short_aq nw:distance-to node 16 ]
-  ask node 0 [ set short_ar nw:distance-to node 17 ]
-  ask node 0 [ set short_as nw:distance-to node 18 ]
-  ask node 0 [ set short_at nw:distance-to node 19 ]
-  ask node 0 [ set short_au nw:distance-to node 20 ]
-  ask node 0 [ set short_av nw:distance-to node 21 ]
-  ask node 0 [ set short_aw nw:distance-to node 22 ]
-  ask node 0 [ set short_ax nw:distance-to node 23 ]
-  ask node 0 [ set short_ay nw:distance-to node 24 ]
-  ask node 0 [ set short_az nw:distance-to node 25 ]
+  print"This is a directed network"
+  print "Number of factors in the NoF"
+  set N count turtles
+  show N
+  print "Total number of incoming links"
+  ask nodes [set In_Links count my-in-links]
+  set L_in sum[In_Links] of nodes
+  show L_in
+  print "Total number of outgoing links"
+  ask nodes [set Out_Links count my-out-links]
+  set L_out sum[Out_Links] of nodes
+  show L_out
 
-  ask node 1 [ set short_ba nw:distance-to node 0 ]
-  ask node 1 [ set short_bb nw:distance-to node 1 ]
-  ask node 1 [ set short_bc nw:distance-to node 2 ]
-  ask node 1 [ set short_bd nw:distance-to node 3 ]
-  ask node 1 [ set short_be nw:distance-to node 4 ]
-  ask node 1 [ set short_bf nw:distance-to node 5 ]
-  ask node 1 [ set short_bg nw:distance-to node 6 ]
-  ask node 1 [ set short_bh nw:distance-to node 7 ]
-  ask node 1 [ set short_bi nw:distance-to node 8 ]
-  ask node 1 [ set short_bj nw:distance-to node 9 ]
-  ask node 1 [ set short_bk nw:distance-to node 10 ]
-  ask node 1 [ set short_bl nw:distance-to node 11 ]
-  ask node 1 [ set short_bm nw:distance-to node 12 ]
-  ask node 1 [ set short_bn nw:distance-to node 13 ]
-  ask node 1 [ set short_bo nw:distance-to node 14 ]
-  ask node 1 [ set short_bp nw:distance-to node 15 ]
-  ask node 1 [ set short_bq nw:distance-to node 16 ]
-  ask node 1 [ set short_br nw:distance-to node 17 ]
-  ask node 1 [ set short_bs nw:distance-to node 18 ]
-  ask node 1 [ set short_bt nw:distance-to node 19 ]
-  ask node 1 [ set short_bu nw:distance-to node 20 ]
-  ask node 1 [ set short_bv nw:distance-to node 21 ]
-  ask node 1 [ set short_bw nw:distance-to node 22 ]
-  ask node 1 [ set short_bx nw:distance-to node 23 ]
-  ask node 1 [ set short_by nw:distance-to node 24 ]
-  ask node 1 [ set short_bz nw:distance-to node 25 ]
+;;;; Out-degree links of the factors ;;;;
+  ;print "Out-degree value of factors"
+  ask node 0 [set ko0 (count my-out-links)] ;show ko0]
+  ask node 1 [set ko1 (count my-out-links)] ;show ko1]
+  ask node 2 [set ko2 (count my-out-links)] ;show ko2]
+  ask node 3 [set ko3 (count my-out-links)] ;show ko3]
+  ask node 4 [set ko4 (count my-out-links)] ;show ko4]
+  ask node 5 [set ko5 (count my-out-links)] ;show ko5]
+  ask node 6 [set ko6 (count my-out-links)] ;show ko6]
+  ask node 7 [set ko7 (count my-out-links)] ;show ko7]
+  ask node 8 [set ko8 (count my-out-links)] ;show ko8]
+  ask node 9 [set ko9 (count my-out-links)] ;show ko9]
+  ask node 10 [set ko10 (count my-out-links)] ;show ko10]
+  ask node 11 [set ko11 (count my-out-links)] ;show ko11]
+  ask node 12 [set ko12 (count my-out-links)] ;show ko12]
+  ask node 13 [set ko13 (count my-out-links)] ;show ko13]
+  ask node 14 [set ko14 (count my-out-links)] ;show ko14]
+  ask node 15 [set ko15 (count my-out-links)] ;show ko15]
+  ask node 16 [set ko16 (count my-out-links)] ;show ko16]
+  ask node 17 [set ko17 (count my-out-links)] ;show ko17]
+  ask node 18 [set ko18 (count my-out-links)] ;show ko18]
+  ask node 19 [set ko19 (count my-out-links)] ;show ko19]
+  ask node 20 [set ko20 (count my-out-links)] ;show ko20]
+  ask node 21 [set ko21 (count my-out-links)] ;show ko21]
+  ask node 22 [set ko22 (count my-out-links)] ;show ko22]
+  ask node 23 [set ko23 (count my-out-links)] ;show ko23]
+  ask node 24 [set ko24 (count my-out-links)] ;show ko24]
+  ask node 25 [set ko25 (count my-out-links)] ;show ko25]
+  ask node 26 [set ko26 (count my-out-links)] ;show ko26]
 
 
-  ask nodes [ set shortc nw:distance-to node 2 ]
-  ask nodes [ set shortd nw:distance-to node 3 ]
-  ask nodes [ set shorte nw:distance-to node 4 ]
-  ask nodes [ set shortf nw:distance-to node 5 ]
-  ask nodes [ set shortg nw:distance-to node 6 ]
-  ask nodes [ set shorth nw:distance-to node 7 ]
-  ask nodes [ set shorti nw:distance-to node 8 ]
-  ask nodes [ set shortj nw:distance-to node 9 ]
-  ask nodes [ set shortk nw:distance-to node 10 ]
-  ask nodes [ set shortl nw:distance-to node 11 ]
-  ask nodes [ set shortm nw:distance-to node 12 ]
-  ask nodes [ set shortn nw:distance-to node 13 ]
-
-  ask node 14 [ set short_oa nw:distance-to node 0 ]
-  ask node 14 [ set short_ob nw:distance-to node 1 ]
-  ask node 14 [ set short_oc nw:distance-to node 2 ]
-  ask node 14 [ set short_od nw:distance-to node 3 ]
-  ask node 14 [ set short_oe nw:distance-to node 4 ]
-  ask node 14 [ set short_of nw:distance-to node 5 ]
-  ask node 14 [ set short_og nw:distance-to node 6 ]
-  ask node 14 [ set short_oh nw:distance-to node 7 ]
-  ask node 14 [ set short_oi nw:distance-to node 8 ]
-  ask node 14 [ set short_oj nw:distance-to node 9 ]
-  ask node 14 [ set short_ok nw:distance-to node 10 ]
-  ask node 14 [ set short_ol nw:distance-to node 11 ]
-  ask node 14 [ set short_om nw:distance-to node 12 ]
-  ask node 14 [ set short_on nw:distance-to node 13 ]
-  ask node 14 [ set short_oo nw:distance-to node 14 ]
-  ask node 14 [ set short_op nw:distance-to node 15 ]
-  ask node 14 [ set short_oq nw:distance-to node 16 ]
-  ask node 14 [ set short_or nw:distance-to node 17 ]
-  ask node 14 [ set short_os nw:distance-to node 18 ]
-  ask node 14 [ set short_ot nw:distance-to node 19 ]
-  ask node 14 [ set short_ou nw:distance-to node 20 ]
-  ask node 14 [ set short_ov nw:distance-to node 21 ]
-  ask node 14 [ set short_ow nw:distance-to node 22 ]
-  ask node 14 [ set short_ox nw:distance-to node 23 ]
-  ask node 14 [ set short_oy nw:distance-to node 24 ]
-  ask node 14 [ set short_oz nw:distance-to node 25 ]
-
-  ask nodes [ set shortp nw:distance-to node 15 ]
-  ask nodes [ set shortq nw:distance-to node 16 ]
-  ask nodes [ set shortr nw:distance-to node 17 ]
-  ask nodes [ set shorts nw:distance-to node 18 ]
-  ask nodes [ set shortt nw:distance-to node 19 ]
-
-  ask node 20 [ set short_ua nw:distance-to node 0 ]
-  ask node 20 [ set short_ub nw:distance-to node 1 ]
-  ask node 20 [ set short_uc nw:distance-to node 2 ]
-  ask node 20 [ set short_ud nw:distance-to node 3 ]
-  ask node 20 [ set short_ue nw:distance-to node 4 ]
-  ask node 20 [ set short_uf nw:distance-to node 5 ]
-  ask node 20 [ set short_ug nw:distance-to node 6 ]
-  ask node 20 [ set short_uh nw:distance-to node 7 ]
-  ask node 20 [ set short_ui nw:distance-to node 8 ]
-  ask node 20 [ set short_uj nw:distance-to node 9 ]
-  ask node 20 [ set short_uk nw:distance-to node 10 ]
-  ask node 20 [ set short_ul nw:distance-to node 11 ]
-  ask node 20 [ set short_um nw:distance-to node 12 ]
-  ask node 20 [ set short_un nw:distance-to node 13 ]
-  ask node 20 [ set short_uo nw:distance-to node 14 ]
-  ask node 20 [ set short_up nw:distance-to node 15 ]
-  ask node 20 [ set short_uq nw:distance-to node 16 ]
-  ask node 20 [ set short_ur nw:distance-to node 17 ]
-  ask node 20 [ set short_us nw:distance-to node 18 ]
-  ask node 20 [ set short_ut nw:distance-to node 19 ]
-  ask node 20 [ set short_uu nw:distance-to node 20 ]
-  ask node 20 [ set short_uv nw:distance-to node 21 ]
-  ask node 20 [ set short_uw nw:distance-to node 22 ]
-  ask node 20 [ set short_ux nw:distance-to node 23 ]
-  ask node 20 [ set short_uy nw:distance-to node 24 ]
-  ask node 20 [ set short_uz nw:distance-to node 25 ]
-
-  ask nodes [ set shortv nw:distance-to node 21 ]
-  ask nodes [ set shortw nw:distance-to node 22 ]
-  ask nodes [ set shortx nw:distance-to node 23 ]
-  ask nodes [ set shorty nw:distance-to node 24 ]
-
-  ask node 25 [ set short_za nw:distance-to node 0 ]
-  ask node 25 [ set short_zb nw:distance-to node 1 ]
-  ask node 25 [ set short_zc nw:distance-to node 2 ]
-  ask node 25 [ set short_zd nw:distance-to node 3 ]
-  ask node 25 [ set short_ze nw:distance-to node 4 ]
-  ask node 25 [ set short_zf nw:distance-to node 5 ]
-  ask node 25 [ set short_zg nw:distance-to node 6 ]
-  ask node 25 [ set short_zh nw:distance-to node 7 ]
-  ask node 25 [ set short_zi nw:distance-to node 8 ]
-  ask node 25 [ set short_zj nw:distance-to node 9 ]
-  ask node 25 [ set short_zk nw:distance-to node 10 ]
-  ask node 25 [ set short_zl nw:distance-to node 11 ]
-  ask node 25 [ set short_zm nw:distance-to node 12 ]
-  ask node 25 [ set short_zn nw:distance-to node 13 ]
-  ask node 25 [ set short_zo nw:distance-to node 14 ]
-  ask node 25 [ set short_zp nw:distance-to node 15 ]
-  ask node 25 [ set short_zq nw:distance-to node 16 ]
-  ask node 25 [ set short_zr nw:distance-to node 17 ]
-  ask node 25 [ set short_zs nw:distance-to node 18 ]
-  ask node 25 [ set short_zt nw:distance-to node 19 ]
-  ask node 25 [ set short_zu nw:distance-to node 20 ]
-  ask node 25 [ set short_zv nw:distance-to node 21 ]
-  ask node 25 [ set short_zw nw:distance-to node 22 ]
-  ask node 25 [ set short_zx nw:distance-to node 23 ]
-  ask node 25 [ set short_zy nw:distance-to node 24 ]
-  ask node 25 [ set short_zz nw:distance-to node 25 ]
-
-;; Characteristic pathlength of node 0 with other nodes ;;
+;;;; In-degree links of the factors ;;;;
+  ;print "In-degree value of factors"
+  ask node 0 [set ki0 (count my-in-links)] ;show ki0]
+  ask node 1 [set ki1 (count my-in-links)] ;show ki1]
+  ask node 2 [set ki2 (count my-in-links)] ;show ki2]
+  ask node 3 [set ki3 (count my-in-links)] ;show ki3]
+  ask node 4 [set ki4 (count my-in-links)] ;show ki4]
+  ask node 5 [set ki5 (count my-in-links)] ;show ki5]
+  ask node 6 [set ki6 (count my-in-links)] ;show ki6]
+  ask node 7 [set ki7 (count my-in-links)] ;show ki7]
+  ask node 8 [set ki8 (count my-in-links)] ;show ki8]
+  ask node 9 [set ki9 (count my-in-links)] ;show ki9]
+  ask node 10 [set ki10 (count my-in-links)] ;show ki10]
+  ask node 11 [set ki11 (count my-in-links)] ;show ki11]
+  ask node 12 [set ki12 (count my-in-links)] ;show ki12]
+  ask node 13 [set ki13 (count my-in-links)] ;show ki13]
+  ask node 14 [set ki14 (count my-in-links)] ;show ki14]
+  ask node 15 [set ki15 (count my-in-links)] ;show ki15]
+  ask node 16 [set ki16 (count my-in-links)] ;show ki16]
+  ask node 17 [set ki17 (count my-in-links)] ;show ki17]
+  ask node 18 [set ki18 (count my-in-links)] ;show ki18]
+  ask node 19 [set ki19 (count my-in-links)] ;show ki19]
+  ask node 20 [set ki20 (count my-in-links)] ;show ki20]
+  ask node 21 [set ki21 (count my-in-links)] ;show ki21]
+  ask node 22 [set ki22 (count my-in-links)] ;show ki22]
+  ask node 23 [set ki23 (count my-in-links)] ;show ki23]
+  ask node 24 [set ki24 (count my-in-links)] ;show ki24]
+  ask node 25 [set ki25 (count my-in-links)] ;show ki25]
+  ask node 26 [set ki26 (count my-in-links)] ;show ki26]
 
 
- ask node 0 [ set path0 0 ]
-    ask node 0 [
-    ifelse (short_aa = false) [
-      set short_aa 0
-    ]
-    [
-      set short_aa short_aa
-     ]
-  ]
+;;;; Out-degree centrality ;;;;
+  print "Out-degree centrality"
+  ask node 0 [set ODc0 ( (ko0) / (N - 1) ) show ODc0]
+  ask node 1 [set ODc1 ( (ko1) / (N - 1) ) show ODc1]
+  ask node 2 [set ODc2 ( (ko2) / (N - 1) ) show ODc2]
+  ask node 3 [set ODc3 ( (ko3) / (N - 1) ) show ODc3]
+  ask node 4 [set ODc4 ( (ko4) / (N - 1) ) show ODc4]
+  ask node 5 [set ODc5 ( (ko5) / (N - 1) ) show ODc5]
+  ask node 6 [set ODc6 ( (ko6) / (N - 1) ) show ODc6]
+  ask node 7 [set ODc7 ( (ko7) / (N - 1) ) show ODc7]
+  ask node 8 [set ODc8 ( (ko8) / (N - 1) ) show ODc8]
+  ask node 9 [set ODc9 ( (ko9) / (N - 1) ) show ODc9]
+  ask node 10 [set ODc10 ( (ko10) / (N - 1) ) show ODc10]
+  ask node 11 [set ODc11 ( (ko11) / (N - 1) ) show ODc11]
+  ask node 12 [set ODc12 ( (ko12) / (N - 1) ) show ODc12]
+  ask node 13 [set ODc13 ( (ko13) / (N - 1) ) show ODc13]
+  ask node 14 [set ODc14 ( (ko14) / (N - 1) ) show ODc14]
+  ask node 15 [set ODc15 ( (ko15) / (N - 1) ) show ODc15]
+  ask node 16 [set ODc16 ( (ko16) / (N - 1) ) show ODc16]
+  ask node 17 [set ODc17 ( (ko17) / (N - 1) ) show ODc17]
+  ask node 18 [set ODc18 ( (ko18) / (N - 1) ) show ODc18]
+  ask node 19 [set ODc19 ( (ko19) / (N - 1) ) show ODc19]
+  ask node 20 [set ODc20 ( (ko20) / (N - 1) ) show ODc20]
+  ask node 21 [set ODc21 ( (ko21) / (N - 1) ) show ODc21]
+  ask node 22 [set ODc22 ( (ko22) / (N - 1) ) show ODc22]
+  ask node 23 [set ODc23 ( (ko23) / (N - 1) ) show ODc23]
+  ask node 24 [set ODc24 ( (ko24) / (N - 1) ) show ODc24]
+  ask node 25 [set ODc25 ( (ko25) / (N - 1) ) show ODc25]
+  ask node 26 [set ODc26 ( (ko26) / (N - 1) ) show ODc26]
 
-      ask node 0 [
-    ifelse (short_ab = false) [
-      set short_ab 0
-    ]
-    [
-      set short_ab short_ab
-      set path0 path0 + 1
-    ]
-  ]
 
-      ask node 0 [
-    ifelse (short_ac = false) [
-      set short_ac 0
-    ]
-    [
-      set short_ac short_ac
-      set path0 path0 + 1
-    ]
-  ]
+;;;; In-degree centrality ;;;;
+  print "In-degree centrality"
+  ask node 0 [set IDc0 ( (ki0) / (N - 1) ) show IDc0]
+ask node 1 [set IDc1 ( (ki1) / (N - 1) ) show IDc1]
+ask node 2 [set IDc2 ( (ki2) / (N - 1) ) show IDc2]
+ask node 3 [set IDc3 ( (ki3) / (N - 1) ) show IDc3]
+ask node 4 [set IDc4 ( (ki4) / (N - 1) ) show IDc4]
+ask node 5 [set IDc5 ( (ki5) / (N - 1) ) show IDc5]
+ask node 6 [set IDc6 ( (ki6) / (N - 1) ) show IDc6]
+ask node 7 [set IDc7 ( (ki7) / (N - 1) ) show IDc7]
+ask node 8 [set IDc8 ( (ki8) / (N - 1) ) show IDc8]
+ask node 9 [set IDc9 ( (ki9) / (N - 1) ) show IDc9]
+ask node 10 [set IDc10 ( (ki10) / (N - 1) ) show IDc10]
+ask node 11 [set IDc11 ( (ki11) / (N - 1) ) show IDc11]
+ask node 12 [set IDc12 ( (ki12) / (N - 1) ) show IDc12]
+ask node 13 [set IDc13 ( (ki13) / (N - 1) ) show IDc13]
+ask node 14 [set IDc14 ( (ki14) / (N - 1) ) show IDc14]
+ask node 15 [set IDc15 ( (ki15) / (N - 1) ) show IDc15]
+ask node 16 [set IDc16 ( (ki16) / (N - 1) ) show IDc16]
+ask node 17 [set IDc17 ( (ki17) / (N - 1) ) show IDc17]
+ask node 18 [set IDc18 ( (ki18) / (N - 1) ) show IDc18]
+ask node 19 [set IDc19 ( (ki19) / (N - 1) ) show IDc19]
+ask node 20 [set IDc20 ( (ki20) / (N - 1) ) show IDc20]
+ask node 21 [set IDc21 ( (ki21) / (N - 1) ) show IDc21]
+ask node 22 [set IDc22 ( (ki22) / (N - 1) ) show IDc22]
+ask node 23 [set IDc23 ( (ki23) / (N - 1) ) show IDc23]
+ask node 24 [set IDc24 ( (ki24) / (N - 1) ) show IDc24]
+ask node 25 [set IDc25 ( (ki25) / (N - 1) )show IDc25]
+ask node 26 [set IDc26 ( (ki26) / (N - 1) ) show IDc26]
 
-  ask node 0 [
-    ifelse (short_ad = false) [
-      set short_ad 0
-    ]
-    [
-      set short_ad short_ad
-      set path0 path0 + 1
-    ]
-  ]
 
-  ask node 0 [
-    ifelse (short_ae = false) [
-      set short_ae 0
-    ]
-    [
-      set short_ae short_ae
-      set path0 path0 + 1
-    ]
-  ]
+;;;; Closeness centrality ;;;;
+ print "Closeness centrality"
+  ask node 0 [set Cc0 nw:closeness-centrality show Cc0]
+ask node 1 [set Cc1 nw:closeness-centrality show Cc1]
+ask node 2 [set Cc2 nw:closeness-centrality show Cc2]
+ask node 3 [set Cc3 nw:closeness-centrality show Cc3]
+ask node 4 [set Cc4 nw:closeness-centrality show Cc4]
+ask node 5 [set Cc5 nw:closeness-centrality show Cc5]
+ask node 6 [set Cc6 nw:closeness-centrality show Cc6]
+ask node 7 [set Cc7 nw:closeness-centrality show Cc7]
+ask node 8 [set Cc8 nw:closeness-centrality show Cc8]
+ask node 9 [set Cc9 nw:closeness-centrality show Cc9]
+ask node 10 [set Cc10 nw:closeness-centrality show Cc10]
+ask node 11 [set Cc11 nw:closeness-centrality show Cc11]
+ask node 12 [set Cc12 nw:closeness-centrality show Cc12]
+ask node 13 [set Cc13 nw:closeness-centrality show Cc13]
+ask node 14 [set Cc14 nw:closeness-centrality show Cc14]
+ask node 15 [set Cc15 nw:closeness-centrality show Cc15]
+ask node 16 [set Cc16 nw:closeness-centrality show Cc16]
+ask node 17 [set Cc17 nw:closeness-centrality show Cc17]
+ask node 18 [set Cc18 nw:closeness-centrality show Cc18]
+ask node 19 [set Cc19 nw:closeness-centrality show Cc19]
+ask node 20 [set Cc20 nw:closeness-centrality show Cc20]
+ask node 21 [set Cc21 nw:closeness-centrality show Cc21]
+ask node 22 [set Cc22 nw:closeness-centrality show Cc22]
+ask node 23 [set Cc23 nw:closeness-centrality show Cc23]
+ask node 24 [set Cc24 nw:closeness-centrality show Cc24]
+ask node 25 [set Cc25 nw:closeness-centrality show Cc25]
+ask node 26 [set Cc26 nw:closeness-centrality show Cc26]
 
-  ask node 0 [
-    ifelse (short_af = false) [
-      set short_af 0
-    ]
-    [
-      set short_af short_af
-      set path0 path0 + 1
-    ]
-  ]
 
-  ask node 0 [
-    ifelse (short_ag = false) [
-      set short_ag 0
-    ]
-    [
-      set short_ag short_ag
-      set path0 path0 + 1
-    ]
-  ]
+;;;; Betweenness centrality ;;;;
+  print "Betweenness centrality"
+ask node 0 [set Bc0 nw:betweenness-centrality show Bc0]
+ask node 1 [set Bc1 nw:betweenness-centrality show Bc1]
+ask node 2 [set Bc2 nw:betweenness-centrality show Bc2]
+ask node 3 [set Bc3 nw:betweenness-centrality show Bc3]
+ask node 4 [set Bc4 nw:betweenness-centrality show Bc4]
+ask node 5 [set Bc5 nw:betweenness-centrality show Bc5]
+ask node 6 [set Bc6 nw:betweenness-centrality show Bc6]
+ask node 7 [set Bc7 nw:betweenness-centrality show Bc7]
+ask node 8 [set Bc8 nw:betweenness-centrality show Bc8]
+ask node 9 [set Bc9 nw:betweenness-centrality show Bc9]
+ask node 10 [set Bc10 nw:betweenness-centrality show Bc10]
+ask node 11 [set Bc11 nw:betweenness-centrality show Bc11]
+ask node 12 [set Bc12 nw:betweenness-centrality show Bc12]
+ask node 13 [set Bc13 nw:betweenness-centrality show Bc13]
+ask node 14 [set Bc14 nw:betweenness-centrality show Bc14]
+ask node 15 [set Bc15 nw:betweenness-centrality show Bc15]
+ask node 16 [set Bc16 nw:betweenness-centrality show Bc16]
+ask node 17 [set Bc17 nw:betweenness-centrality show Bc17]
+ask node 18 [set Bc18 nw:betweenness-centrality show Bc18]
+ask node 19 [set Bc19 nw:betweenness-centrality show Bc19]
+ask node 20 [set Bc20 nw:betweenness-centrality show Bc20]
+ask node 21 [set Bc21 nw:betweenness-centrality show Bc21]
+ask node 22 [set Bc22 nw:betweenness-centrality show Bc22]
+ask node 23 [set Bc23 nw:betweenness-centrality show Bc23]
+ask node 24 [set Bc24 nw:betweenness-centrality show Bc24]
+ask node 25 [set Bc25 nw:betweenness-centrality show Bc25]
+ask node 26 [set Bc26 nw:betweenness-centrality show Bc26]
 
-  ask node 0 [
-    ifelse (short_ah = false) [
-      set short_ah 0
-    ]
-    [
-      set short_ah short_ah
-      set path0 path0 + 1
-    ]
-  ]
+;;;; Eigenvector centrality ;;;;
+  print "Eigenvector centrality"
+  ask node 0 [set Ec0 nw:eigenvector-centrality show Ec0]
+  ask node 1 [set Ec1 nw:eigenvector-centrality show Ec1]
+  ask node 2 [set Ec2 nw:eigenvector-centrality show Ec2]
+  ask node 3 [set Ec3 nw:eigenvector-centrality show Ec3]
+  ask node 4 [set Ec4 nw:eigenvector-centrality show Ec4]
+  ask node 5 [set Ec5 nw:eigenvector-centrality show Ec5]
+  ask node 6 [set Ec6 nw:eigenvector-centrality show Ec6]
+  ask node 7 [set Ec7 nw:eigenvector-centrality show Ec7]
+  ask node 8 [set Ec8 nw:eigenvector-centrality show Ec8]
+  ask node 9 [set Ec9 nw:eigenvector-centrality show Ec9]
+  ask node 10 [set Ec10 nw:eigenvector-centrality show Ec10]
+  ask node 11 [set Ec11 nw:eigenvector-centrality show Ec11]
+  ask node 12 [set Ec12 nw:eigenvector-centrality show Ec12]
+  ask node 13 [set Ec13 nw:eigenvector-centrality show Ec13]
+  ask node 14 [set Ec14 nw:eigenvector-centrality show Ec14]
+  ask node 15 [set Ec15 nw:eigenvector-centrality show Ec15]
+  ask node 16 [set Ec16 nw:eigenvector-centrality show Ec16]
+  ask node 17 [set Ec17 nw:eigenvector-centrality show Ec17]
+  ask node 18 [set Ec18 nw:eigenvector-centrality show Ec18]
+  ask node 19 [set Ec19 nw:eigenvector-centrality show Ec19]
+  ask node 20 [set Ec20 nw:eigenvector-centrality show Ec20]
+  ask node 21 [set Ec21 nw:eigenvector-centrality show Ec21]
+  ask node 22 [set Ec22 nw:eigenvector-centrality show Ec22]
+  ask node 23 [set Ec23 nw:eigenvector-centrality show Ec23]
+  ask node 24 [set Ec24 nw:eigenvector-centrality show Ec24]
+  ask node 25 [set Ec25 nw:eigenvector-centrality show Ec25]
+  ask node 26 [set Ec26 nw:eigenvector-centrality show Ec26]
 
-  ask node 0 [
-    ifelse (short_ai = false) [
-      set short_ai 0
-    ]
-    [
-      set short_ai short_ai
-      set path0 path0 + 1
-    ]
-  ]
 
-  ask node 0 [
-    ifelse (short_aj = false) [
-      set short_aj 0
-    ]
-    [
-      set short_aj short_aj
-      set path0 path0 + 1
-    ]
-  ]
+;;;; Characteristic pathlength ;;;;
 
-  ask node 0 [
-    ifelse (short_ak = false) [
-      set short_ak 0
-    ]
-    [
-      set short_ak short_ak
-      set path0 path0 + 1
-    ]
-  ]
+;; Finding paths between node 0 and other factors
 
-  ask node 0 [
-    ifelse (short_al = false) [
-      set short_al 0
-    ]
-    [
-      set short_al short_al
-      set path0 path0 + 1
-    ]
-  ]
+  ask node 0 [set short_0_0 nw:distance-to node 0]
+  ask node 0 [set short_0_1 nw:distance-to node 1]
+  ask node 0 [set short_0_2 nw:distance-to node 2]
+  ask node 0 [set short_0_3 nw:distance-to node 3]
+  ask node 0 [set short_0_4 nw:distance-to node 4]
+  ask node 0 [set short_0_5 nw:distance-to node 5]
+  ask node 0 [set short_0_6 nw:distance-to node 6]
+  ask node 0 [set short_0_7 nw:distance-to node 7]
+  ask node 0 [set short_0_8 nw:distance-to node 8]
+  ask node 0 [set short_0_9 nw:distance-to node 9]
+  ask node 0 [set short_0_10 nw:distance-to node 10]
+  ask node 0 [set short_0_11 nw:distance-to node 11]
+  ask node 0 [set short_0_12 nw:distance-to node 12]
+  ask node 0 [set short_0_13 nw:distance-to node 13]
+  ask node 0 [set short_0_14 nw:distance-to node 14]
+  ask node 0 [set short_0_15 nw:distance-to node 15]
+  ask node 0 [set short_0_16 nw:distance-to node 16]
+  ask node 0 [set short_0_17 nw:distance-to node 17]
+  ask node 0 [set short_0_18 nw:distance-to node 18]
+  ask node 0 [set short_0_19 nw:distance-to node 19]
+  ask node 0 [set short_0_20 nw:distance-to node 20]
+  ask node 0 [set short_0_21 nw:distance-to node 21]
+  ask node 0 [set short_0_22 nw:distance-to node 22]
+  ask node 0 [set short_0_23 nw:distance-to node 23]
+  ask node 0 [set short_0_24 nw:distance-to node 24]
+  ask node 0 [set short_0_25 nw:distance-to node 25]
+  ask node 0 [set short_0_26 nw:distance-to node 26]
 
-  ask node 0 [
-    ifelse (short_am = false) [
-      set short_am 0
-    ]
-    [
-      set short_am short_am
-      set path0 path0 + 1
-    ]
-  ]
+ ;ask node 0 [show short_0_0 show short_0_1 show short_0_2 show short_0_3 show short_0_4 show short_0_5 show short_0_6 show short_0_7 show short_0_8 show short_0_9 show short_0_10 show short_0_11 show short_0_12 show short_0_13 show short_0_14 show short_0_15 show short_0_16 show short_0_17 show short_0_18 show short_0_19 show short_0_20 show short_0_21 show short_0_22 show short_0_23 show short_0_24 show short_0_25 show short_0_26]
 
-  ask node 0 [
-    ifelse (short_an = false) [
-      set short_an 0
-    ]
-    [
-      set short_an short_an
-      set path0 path0 + 1
-    ]
-  ]
+; If there is a path then path , the value is returned as false then the path is 0.
+; In the following case, there is no path for a factor to itself.
 
-  ask node 0 [
-    ifelse (short_ao = false) [
-      set short_ao 0
-    ]
-    [
-      set short_ao short_ao
-      set path0 path0 + 1
-    ]
-  ]
+  ask node 0 [ set path0 0 ]
+  ask node 0 [ifelse (short_0_0 = false) [set short_0_0 0] [set short_0_0 short_0_0] ]
+; checking if there is a path between node 0 and 1 and so on
+  ask node 0 [ifelse (short_0_1 = false) [set short_0_1 0] [set short_0_1 short_0_1 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_2 = false) [set short_0_2 0] [set short_0_2 short_0_2 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_3 = false) [set short_0_3 0] [set short_0_3 short_0_3 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_4 = false) [set short_0_4 0] [set short_0_4 short_0_4 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_5 = false) [set short_0_5 0] [set short_0_5 short_0_5 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_6 = false) [set short_0_6 0] [set short_0_6 short_0_6 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_7 = false) [set short_0_7 0] [set short_0_7 short_0_7 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_8 = false) [set short_0_8 0] [set short_0_8 short_0_8 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_9 = false) [set short_0_9 0] [set short_0_9 short_0_9 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_10 = false) [set short_0_10 0] [set short_0_10 short_0_10 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_11 = false) [set short_0_11 0] [set short_0_11 short_0_11 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_12 = false) [set short_0_12 0] [set short_0_12 short_0_12 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_13 = false) [set short_0_13 0] [set short_0_13 short_0_13 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_14 = false) [set short_0_14 0] [set short_0_14 short_0_14 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_15 = false) [set short_0_15 0] [set short_0_15 short_0_15 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_16 = false) [set short_0_16 0] [set short_0_16 short_0_16 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_17 = false) [set short_0_17 0] [set short_0_17 short_0_17 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_18 = false) [set short_0_18 0] [set short_0_18 short_0_18 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_19 = false) [set short_0_19 0] [set short_0_19 short_0_19 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_20 = false) [set short_0_20 0] [set short_0_20 short_0_20 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_21 = false) [set short_0_21 0] [set short_0_21 short_0_21 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_22 = false) [set short_0_22 0] [set short_0_22 short_0_22 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_23 = false) [set short_0_23 0] [set short_0_23 short_0_23 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_24 = false) [set short_0_24 0] [set short_0_24 short_0_24 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_25 = false) [set short_0_25 0] [set short_0_25 short_0_25 set path0 path0 + 1] ]
+  ask node 0 [ifelse (short_0_26 = false) [set short_0_26 0] [set short_0_26 short_0_26 set path0 path0 + 1] ]
 
-  ask node 0 [
-    ifelse (short_ap = false) [
-      set short_ap 0
-    ]
-    [
-      set short_ap short_ap
-      set path0 path0 + 1
-    ]
-  ]
+ ; ask node 0 [show path0] ;path verified ;24 other nodes in the NoF show possible paths with node 0 hence the total paths from node 0 is 24
 
-  ask node 0 [
-    ifelse (short_aq = false) [
-      set short_aq 0
-    ]
-    [
-      set short_aq short_aq
-      set path0 path0 + 1
-    ]
-  ]
+;; Finding paths between node 1 and other factors
 
-  ask node 0 [
-    ifelse (short_ar = false) [
-      set short_ar 0
-    ]
-    [
-      set short_ar short_ar
-      set path0 path0 + 1
-    ]
-  ]
+  ask node 1 [set short_1_0 nw:distance-to node 0]
+  ask node 1 [set short_1_1 nw:distance-to node 1]
+  ask node 1 [set short_1_2 nw:distance-to node 2]
+  ask node 1 [set short_1_3 nw:distance-to node 3]
+  ask node 1 [set short_1_4 nw:distance-to node 4]
+  ask node 1 [set short_1_5 nw:distance-to node 5]
+  ask node 1 [set short_1_6 nw:distance-to node 6]
+  ask node 1 [set short_1_7 nw:distance-to node 7]
+  ask node 1 [set short_1_8 nw:distance-to node 8]
+  ask node 1 [set short_1_9 nw:distance-to node 9]
+  ask node 1 [set short_1_10 nw:distance-to node 10]
+  ask node 1 [set short_1_11 nw:distance-to node 11]
+  ask node 1 [set short_1_12 nw:distance-to node 12]
+  ask node 1 [set short_1_13 nw:distance-to node 13]
+  ask node 1 [set short_1_14 nw:distance-to node 14]
+  ask node 1 [set short_1_15 nw:distance-to node 15]
+  ask node 1 [set short_1_16 nw:distance-to node 16]
+  ask node 1 [set short_1_17 nw:distance-to node 17]
+  ask node 1 [set short_1_18 nw:distance-to node 18]
+  ask node 1 [set short_1_19 nw:distance-to node 19]
+  ask node 1 [set short_1_20 nw:distance-to node 20]
+  ask node 1 [set short_1_21 nw:distance-to node 21]
+  ask node 1 [set short_1_22 nw:distance-to node 22]
+  ask node 1 [set short_1_23 nw:distance-to node 23]
+  ask node 1 [set short_1_24 nw:distance-to node 24]
+  ask node 1 [set short_1_25 nw:distance-to node 25]
+  ask node 1 [set short_1_26 nw:distance-to node 26]
 
-  ask node 0 [
-    ifelse (short_as = false) [
-      set short_as 0
-    ]
-    [
-      set short_as short_as
-      set path0 path0 + 1
-    ]
-  ]
+ ;ask node 1 [show short_1_0 show short_1_1 show short_1_2 show short_1_3 show short_1_4 show short_1_5 show short_1_6 show short_1_7 show short_1_8 show short_1_9 show short_1_10 show short_1_11 show short_1_12 show short_1_13 show short_1_14 show short_1_15 show short_1_16 show short_1_17 show short_1_18 show short_1_19 show short_1_20 show short_1_21 show short_1_22 show short_1_23 show short_1_24 show short_1_25 show short_1_26]
 
-  ask node 0 [
-    ifelse (short_at = false) [
-      set short_at 0
-    ]
-    [
-      set short_at short_at
-      set path0 path0 + 1
-    ]
-  ]
+; If there is a path then path value is incremented. If the value is returned as false/zero then the path is 0.
+; There is no path for a factor to itself.
 
-  ask node 0 [
-    ifelse (short_au = false) [
-      set short_au 0
-    ]
-    [
-      set short_au short_au
-      set path0 path0 + 1
-    ]
-  ]
-
-  ask node 0 [
-    ifelse (short_av = false) [
-      set short_av 0
-    ]
-    [
-      set short_av short_av
-      set path0 path0 + 1
-    ]
-  ]
-
-  ask node 0 [
-    ifelse (short_aw = false) [
-      set short_aw 0
-    ]
-    [
-      set short_aw short_aw
-      set path0 path0 + 1
-    ]
-  ]
-
-  ask node 0 [
-    ifelse (short_ax = false) [
-      set short_ax 0
-    ]
-    [
-      set short_ax short_ax
-      set path0 path0 + 1
-    ]
-  ]
-
-  ask node 0 [
-    ifelse (short_ay = false) [
-      set short_ay 0
-    ]
-    [
-      set short_ay short_ay
-      set path0 path0 + 1
-    ]
-  ]
-
-  ask node 0 [
-    ifelse (short_az = false) [
-      set short_az 0
-    ]
-    [
-      set short_az short_az
-      set path0 path0 + 1
-    ]
-  ]
-
- ; ask node 0 [ show path0 ]
-
-; print "Characteristic pathlength of node 0 with other nodes"
-;  ask node 0 [ show short_aa ]
-;  ask node 0 [ show short_ab ]
-;  ask node 0 [ show short_ac ]
-;  ask node 0 [ show short_ad ]
-;  ask node 0 [ show short_ae ]
-;  ask node 0 [ show short_af ]
-;  ask node 0 [ show short_ag ]
-;  ask node 0 [ show short_ah ]
-;  ask node 0 [ show short_ai ]
-;  ask node 0 [ show short_aj ]
-;  ask node 0 [ show short_ak ]
-;  ask node 0 [ show short_al ]
-;  ask node 0 [ show short_am ]
-;  ask node 0 [ show short_an ]
-;  ask node 0 [ show short_ao ]
-;  ask node 0 [ show short_ap ]
-;  ask node 0 [ show short_aq ]
-;  ask node 0 [ show short_ar ]
-;  ask node 0 [ show short_as ]
-;  ask node 0 [ show short_at ]
-;  ask node 0 [ show short_au ]
-;  ask node 0 [ show short_av ]
-;  ask node 0 [ show short_aw ]
-;  ask node 0 [ show short_ax ]
-;  ask node 0 [ show short_ay ]
-;  ask node 0 [ show short_az ]
-
-  ;; Characteristic pathlength of node 1 with other nodes ;;
   ask node 1 [ set path1 0 ]
-    ask node 1 [
-    ifelse (short_ba = false) [
-      set short_ba 0
-    ]
-    [
-      set short_ba short_ba
-      set path1 path1 + 1
-    ]
-  ]
-
-      ask node 1 [
-    ifelse (short_bb = false) [
-      set short_bb 0
-    ]
-    [
-      set short_bb short_bb
-    ]
-  ]
-
-      ask node 1 [
-    ifelse (short_bc = false) [
-      set short_bc 0
-    ]
-    [
-      set short_bc short_bc
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bd = false) [
-      set short_bd 0
-    ]
-    [
-      set short_bd short_bd
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_be = false) [
-      set short_be 0
-    ]
-    [
-      set short_be short_be
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bf = false) [
-      set short_bf 0
-    ]
-    [
-      set short_bf short_bf
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bg = false) [
-      set short_bg 0
-    ]
-    [
-      set short_bg short_bg
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bh = false) [
-      set short_bh 0
-    ]
-    [
-      set short_bh short_bh
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bi = false) [
-      set short_bi 0
-    ]
-    [
-      set short_bi short_bi
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bj = false) [
-      set short_bj 0
-    ]
-    [
-      set short_bj short_bj
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bk = false) [
-      set short_bk 0
-    ]
-    [
-      set short_bk short_bk
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bl = false) [
-      set short_bl 0
-    ]
-    [
-      set short_bl short_bl
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bm = false) [
-      set short_bm 0
-    ]
-    [
-      set short_bm short_bm
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bn = false) [
-      set short_bn 0
-    ]
-    [
-      set short_bn short_bn
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bo = false) [
-      set short_bo 0
-    ]
-    [
-      set short_bo short_bo
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bp = false) [
-      set short_bp 0
-    ]
-    [
-      set short_bp short_bp
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bq = false) [
-      set short_bq 0
-    ]
-    [
-      set short_bq short_bq
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_br = false) [
-      set short_br 0
-    ]
-    [
-      set short_br short_br
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bs = false) [
-      set short_bs 0
-    ]
-    [
-      set short_bs short_bs
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bt = false) [
-      set short_bt 0
-    ]
-    [
-      set short_bt short_bt
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bu = false) [
-      set short_bu 0
-    ]
-    [
-      set short_bu short_bu
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bv = false) [
-      set short_bv 0
-    ]
-    [
-      set short_bv short_bv
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bw = false) [
-      set short_bw 0
-    ]
-    [
-      set short_bw short_bw
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bx = false) [
-      set short_bx 0
-    ]
-    [
-      set short_bx short_bx
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_by = false) [
-      set short_by 0
-    ]
-    [
-      set short_by short_by
-      set path1 path1 + 1
-    ]
-  ]
-
-  ask node 1 [
-    ifelse (short_bz = false) [
-      set short_bz 0
-    ]
-    [
-      set short_bz short_bz
-      set path1 path1 + 1
-    ]
-  ]
-
- ; ask node 1 [ show path1 ]
-
-;  print "Characteristic pathlength of node 1 with other nodes"
-;  ask node 1 [ show short_ba ]
-;  ask node 1 [ show short_bb ]
-;  ask node 1 [ show short_bc ]
-;  ask node 1 [ show short_bd ]
-;  ask node 1 [ show short_be ]
-;  ask node 1 [ show short_bf ]
-;  ask node 1 [ show short_bg ]
-;  ask node 1 [ show short_bh ]
-;  ask node 1 [ show short_bi ]
-;  ask node 1 [ show short_bj ]
-;  ask node 1 [ show short_bk ]
-;  ask node 1 [ show short_bl ]
-;  ask node 1 [ show short_bm ]
-;  ask node 1 [ show short_bn ]
-;  ask node 1 [ show short_bo ]
-;  ask node 1 [ show short_bp ]
-;  ask node 1 [ show short_bq ]
-;  ask node 1 [ show short_br ]
-;  ask node 1 [ show short_bs ]
-;  ask node 1 [ show short_bt ]
-;  ask node 1 [ show short_bu ]
-;  ask node 1 [ show short_bv ]
-;  ask node 1 [ show short_bw ]
-;  ask node 1 [ show short_bx ]
-;  ask node 1 [ show short_by ]
-;  ask node 1 [ show short_bz ]
-
-; print "Characteristic pathlength of node 2 with other nodes"
-;  ask nodes [show short2]
-;
-;  print "Characteristic pathlength of node 3 with other nodes"
-;  ask nodes [show short3]
-;
-;  print "Characteristic pathlength of node 4 with other nodes"
-;  ask nodes [show short4]
-;
-;  print "Characteristic pathlength of node 5 with other nodes"
-;  ask nodes [show short5]
-;
-;  print "Characteristic pathlength of node 6 with other nodes"
-;  ask nodes [show short6]
-;
-;  print "Characteristic pathlength of node 7 with other nodes"
-;  ask nodes [show short7]
-;
-;  print "Characteristic pathlength of node 8 with other nodes"
-;  ask nodes [show short8]
-;
-;  print "Characteristic pathlength of node 9 with other nodes"
-;  ask nodes [show short9]
-;
-;  print "Characteristic pathlength of node 10 with other nodes"
-;  ask nodes [show short10]
-;
-;  print "Characteristic pathlength of node 11 with other nodes"
-;  ask nodes [show short11]
-;
-;  print "Characteristic pathlength of node 12 with other nodes"
-;  ask nodes [show short12]
-;
-;  print "Characteristic pathlength of node 13 with other nodes"
-;  ask nodes [show short13]
-
-   ask node 2 [
-
-    set j 0
-    set path2 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path2 path2 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
- ; ask node 2 [ show path2 ]
-
-
-ask node 3 [
-
-    set j 0
-    set path3 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path3 path3 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
- ; ask node 3 [ show path3 ]
-
-
-ask node 4 [
-
-    set j 0
-    set path4 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path4 path4 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
- ; ask node 4 [ show path4 ]
-
-
-ask node 5 [
-
-    set j 0
-    set path5 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path5 path5 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
-;  ask node 5 [ show path5 ]
-
-  ask node 6 [
-
-    set j 0
-    set path6 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path6 path6 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
-;  ask node 6 [ show path6 ]
-
-
-ask node 7 [
-
-    set j 0
-    set path7 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path7 path7 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
-;  ask node 7 [ show path7 ]
-
-
-ask node 8 [
-
-    set j 0
-    set path8 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path8 path8 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
- ; ask node 8 [ show path8 ]
-
-
-ask node 9 [
-
-    set j 0
-    set path9 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path9 path9 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
-;  ask node 9 [ show path9 ]
-
-
-  ask node 10 [
-
-    set j 0
-    set path10 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path10 path10 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
- ; ask node 10 [ show path10 ]
-
-
-ask node 11 [
-
-    set j 0
-    set path11 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path11 path11 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
- ; ask node 11 [ show path11 ]
-
-
-ask node 12 [
-
-    set j 0
-    set path12 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path12 path12 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
- ; ask node 12 [ show path12 ]
-
-
-ask node 13 [
-
-    set j 0
-    set path13 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path13 path13 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
-;  ask node 13 [ show path13 ]
-
-;; Characteristic pathlength of node 14 with other nodes ;;
-  ask node 14 [ set path14 0 ]
- ask node 14 [
-    ifelse (short_oa = false) [
-      set short_oa 0
-    ]
-    [
-      set short_oa short_oa
-      set path14 path14 + 1
-    ]
-  ]
-
-      ask node 14 [
-    ifelse (short_ob = false) [
-      set short_ob 0
-    ]
-    [
-      set short_ob short_ob
-      set path14 path14 + 1
-    ]
-  ]
-
-      ask node 14 [
-    ifelse (short_oc = false) [
-      set short_oc 0
-    ]
-    [
-      set short_oc short_oc
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_od = false) [
-      set short_od 0
-    ]
-    [
-      set short_od short_od
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_oe = false) [
-      set short_oe 0
-    ]
-    [
-      set short_oe short_oe
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_of = false) [
-      set short_of 0
-    ]
-    [
-      set short_of short_of
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_og = false) [
-      set short_og 0
-    ]
-    [
-      set short_og short_og
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_oh = false) [
-      set short_oh 0
-    ]
-    [
-      set short_oh short_oh
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_oi = false) [
-      set short_oi 0
-    ]
-    [
-      set short_oi short_oi
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_oj = false) [
-      set short_oj 0
-    ]
-    [
-      set short_oj short_oj
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_ok = false) [
-      set short_ok 0
-    ]
-    [
-      set short_ok short_ok
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_ol = false) [
-      set short_ol 0
-    ]
-    [
-      set short_ol short_ol
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_om = false) [
-      set short_om 0
-    ]
-    [
-      set short_om short_om
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_on = false) [
-      set short_on 0
-    ]
-    [
-      set short_on short_on
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_oo = false) [
-      set short_oo 0
-    ]
-    [
-      set short_oo short_oo
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_op = false) [
-      set short_op 0
-    ]
-    [
-      set short_op short_op
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_oq = false) [
-      set short_oq 0
-    ]
-    [
-      set short_oq short_oq
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_or = false) [
-      set short_or 0
-    ]
-    [
-      set short_or short_or
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_os = false) [
-      set short_os 0
-    ]
-    [
-      set short_os short_os
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_ot = false) [
-      set short_ot 0
-    ]
-    [
-      set short_ot short_ot
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_ou = false) [
-      set short_ou 0
-    ]
-    [
-      set short_ou short_ou
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_ov = false) [
-      set short_ov 0
-    ]
-    [
-      set short_ov short_ov
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_ow = false) [
-      set short_ow 0
-    ]
-    [
-      set short_ow short_ow
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_ox = false) [
-      set short_ox 0
-    ]
-    [
-      set short_ox short_ox
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_oy = false) [
-      set short_oy 0
-    ]
-    [
-      set short_oy short_oy
-      set path14 path14 + 1
-    ]
-  ]
-
-  ask node 14 [
-    ifelse (short_oz = false) [
-      set short_oz 0
-    ]
-    [
-      set short_oz short_oz
-      set path14 path14 + 1
-    ]
-  ]
-
- ; ask node 14 [ show path14 ]
-
-
-;  print "Characteristic pathlength of node 14 with other nodes"
-;  ask node 14 [ show short_oa ]
-;  ask node 14 [ show short_ob ]
-;  ask node 14 [ show short_oc ]
-;  ask node 14 [ show short_od ]
-;  ask node 14 [ show short_oe ]
-;  ask node 14 [ show short_of ]
-;  ask node 14 [ show short_og ]
-;  ask node 14 [ show short_oh ]
-;  ask node 14 [ show short_oi ]
-;  ask node 14 [ show short_oj ]
-;  ask node 14 [ show short_ok ]
-;  ask node 14 [ show short_ol ]
-;  ask node 14 [ show short_om ]
-;  ask node 14 [ show short_on ]
-;  ask node 14 [ show short_oo ]
-;  ask node 14 [ show short_op ]
-;  ask node 14 [ show short_oq ]
-;  ask node 14 [ show short_or ]
-;  ask node 14 [ show short_os ]
-;  ask node 14 [ show short_ot ]
-;  ask node 14 [ show short_ou ]
-;  ask node 14 [ show short_ov ]
-;  ask node 14 [ show short_ow ]
-;  ask node 14 [ show short_ox ]
-;  ask node 14 [ show short_oy ]
-;  ask node 14 [ show short_oz ]
-
-;  print "Characteristic pathlength of node 15 with other nodes"
-;  ask nodes [show short15]
-;
-;  print "Characteristic pathlength of node 16 with other nodes"
-;  ask nodes [show short16]
-;
-;  print "Characteristic pathlength of node 17 with other nodes"
-;  ask nodes [show short17]
-;
-;  print "Characteristic pathlength of node 18 with other nodes"
-;  ask nodes [show short18]
-;
-;  print "Characteristic pathlength of node 19 with other nodes"
-;  ask nodes [show short19]
-ask node 15 [
-
-    set j 0
-    set path15 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path15 path15 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
-;  ask node 15 [ show path15 ]
-
-
-ask node 16 [
-
-    set j 0
-    set path16 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path16 path16 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
- ; ask node 16 [ show path16 ]
-
-
-ask node 17 [
-
-    set j 0
-    set path17 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path17 path17 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
-;  ask node 17 [ show path17 ]
-
-    ask node 18 [
-
-    set j 0
-    set path18 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path18 path18 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
- ; ask node 18 [ show path18 ]
-
-
-ask node 19 [
-
-    set j 0
-    set path19 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path19 path19 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
-;  ask node 19 [ show path19 ]
-
-;; Characteristic pathlength of node 20 with other nodes ;;
- ask node 20 [ set path20 0 ]
- ask node 20 [
-    ifelse (short_ua = false) [
-      set short_ua 0
-    ]
-    [
-      set short_ua short_ua
-      set path20 path20 + 1
-    ]
-  ]
-
-      ask node 20 [
-    ifelse (short_ub = false) [
-      set short_ub 0
-    ]
-    [
-      set short_ub short_ub
-      set path20 path20 + 1
-    ]
-  ]
-
-      ask node 20 [
-    ifelse (short_uc = false) [
-      set short_uc 0
-    ]
-    [
-      set short_uc short_uc
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_ud = false) [
-      set short_ud 0
-    ]
-    [
-      set short_ud short_ud
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_ue = false) [
-      set short_ue 0
-    ]
-    [
-      set short_ue short_ue
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_uf = false) [
-      set short_uf 0
-    ]
-    [
-      set short_uf short_uf
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_ug = false) [
-      set short_ug 0
-    ]
-    [
-      set short_ug short_ug
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_uh = false) [
-      set short_uh 0
-    ]
-    [
-      set short_uh short_uh
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_ui = false) [
-      set short_ui 0
-    ]
-    [
-      set short_ui short_ui
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_uj = false) [
-      set short_uj 0
-    ]
-    [
-      set short_uj short_uj
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_uk = false) [
-      set short_uk 0
-    ]
-    [
-      set short_uk short_uk
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_ul = false) [
-      set short_ul 0
-    ]
-    [
-      set short_ul short_ul
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_um = false) [
-      set short_um 0
-    ]
-    [
-      set short_um short_um
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_un = false) [
-      set short_un 0
-    ]
-    [
-      set short_un short_un
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_uo = false) [
-      set short_uo 0
-    ]
-    [
-      set short_uo short_uo
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_up = false) [
-      set short_up 0
-    ]
-    [
-      set short_up short_up
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_uq = false) [
-      set short_uq 0
-    ]
-    [
-      set short_uq short_uq
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_ur = false) [
-      set short_ur 0
-    ]
-    [
-      set short_ur short_ur
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_us = false) [
-      set short_us 0
-    ]
-    [
-      set short_us short_us
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_ut = false) [
-      set short_ut 0
-    ]
-    [
-      set short_ut short_ut
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_uu = false) [
-      set short_uu 0
-    ]
-    [
-      set short_uu short_uu
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_uv = false) [
-      set short_uv 0
-    ]
-    [
-      set short_uv short_uv
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_uw = false) [
-      set short_uw 0
-    ]
-    [
-      set short_uw short_uw
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_ux = false) [
-      set short_ux 0
-    ]
-    [
-      set short_ux short_ux
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_uy = false) [
-      set short_uy 0
-    ]
-    [
-      set short_uy short_uy
-      set path20 path20 + 1
-    ]
-  ]
-
-  ask node 20 [
-    ifelse (short_uz = false) [
-      set short_uz 0
-    ]
-    [
-      set short_uz short_uz
-      set path20 path20 + 1
-    ]
-  ]
-
- ; ask node 20 [ show path20 ]
-
-;  print "Characteristic pathlength of node 20 with other nodes"
-;  ask node 20 [ show short_ua ]
-;  ask node 20 [ show short_ub ]
-;  ask node 20 [ show short_uc ]
-;  ask node 20 [ show short_ud ]
-;  ask node 20 [ show short_ue ]
-;  ask node 20 [ show short_uf ]
-;  ask node 20 [ show short_ug ]
-;  ask node 20 [ show short_uh ]
-;  ask node 20 [ show short_ui ]
-;  ask node 20 [ show short_uj ]
-;  ask node 20 [ show short_uk ]
-;  ask node 20 [ show short_ul ]
-;  ask node 20 [ show short_um ]
-;  ask node 20 [ show short_un ]
-;  ask node 20 [ show short_uo ]
-;  ask node 20 [ show short_up ]
-;  ask node 20 [ show short_uq ]
-;  ask node 20 [ show short_ur ]
-;  ask node 20 [ show short_us ]
-;  ask node 20 [ show short_ut ]
-;  ask node 20 [ show short_uu ]
-;  ask node 20 [ show short_uv ]
-;  ask node 20 [ show short_uw ]
-;  ask node 20 [ show short_ux ]
-;  ask node 20 [ show short_uy ]
-;  ask node 20 [ show short_uz ]
-;
-;  print "Characteristic pathlength of node 21 with other nodes"
-;  ask nodes [show short21]
-;
-;  print "Characteristic pathlength of node 22 with other nodes"
-;  ask nodes [show short22]
-;
-;  print "Characteristic pathlength of node 23 with other nodes"
-;  ask nodes [show short23]
-;
-;  print "Characteristic pathlength of node 24 with other nodes"
-;  ask nodes [show short24]
-
-ask node 21 [
-
-    set j 0
-    set path21 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path21 path21 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
- ; ask node 21 [ show path21 ]
-
-
-ask node 22 [
-
-    set j 0
-    set path22 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path22 path22 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
-;  ask node 22 [ show path22 ]
-
-  ask node 23 [
-
-    set j 0
-    set path23 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path23 path23 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
-;  ask node 23 [ show path23 ]
-
-
-ask node 24 [
-
-    set j 0
-    set path24 0
-    loop [ ifelse (j = 26)
-
-      [ stop ]
-    [
-      if (nw:distance-to node j != 0) [
-      set path24 path24 + 1
-    ]
-
-  ]
-      set j j + 1
-    ]
-  ]
-;  ask node 24 [ show path24 ]
-
-
-  ;; Characteristic pathlength of node 25 with other nodes ;;
+  ask node 1 [ifelse (short_1_0 = false) [set short_1_0 0] [set short_1_0 short_1_0 set path1 path1 + 1] ]
+; checking if there is a path between node 0 and 1 and so on
+  ask node 1 [ifelse (short_1_1 = false) [set short_1_1 0] [set short_1_1 short_1_1] ]
+  ask node 1 [ifelse (short_1_2 = false) [set short_1_2 0] [set short_1_2 short_1_2 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_3 = false) [set short_1_3 0] [set short_1_3 short_1_3 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_4 = false) [set short_1_4 0] [set short_1_4 short_1_4 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_5 = false) [set short_1_5 0] [set short_1_5 short_1_5 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_6 = false) [set short_1_6 0] [set short_1_6 short_1_6 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_7 = false) [set short_1_7 0] [set short_1_7 short_1_7 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_8 = false) [set short_1_8 0] [set short_1_8 short_1_8 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_9 = false) [set short_1_9 0] [set short_1_9 short_1_9 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_10 = false) [set short_1_10 0] [set short_1_10 short_1_10 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_11 = false) [set short_1_11 0] [set short_1_11 short_1_11 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_12 = false) [set short_1_12 0] [set short_1_12 short_1_12 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_13 = false) [set short_1_13 0] [set short_1_13 short_1_13 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_14 = false) [set short_1_14 0] [set short_1_14 short_1_14 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_15 = false) [set short_1_15 0] [set short_1_15 short_1_15 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_16 = false) [set short_1_16 0] [set short_1_16 short_1_16 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_17 = false) [set short_1_17 0] [set short_1_17 short_1_17 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_18 = false) [set short_1_18 0] [set short_1_18 short_1_18 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_19 = false) [set short_1_19 0] [set short_1_19 short_1_19 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_20 = false) [set short_1_20 0] [set short_1_20 short_1_20 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_21 = false) [set short_1_21 0] [set short_1_21 short_1_21 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_22 = false) [set short_1_22 0] [set short_1_22 short_1_22 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_23 = false) [set short_1_23 0] [set short_1_23 short_1_23 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_24 = false) [set short_1_24 0] [set short_1_24 short_1_24 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_25 = false) [set short_1_25 0] [set short_1_25 short_1_25 set path1 path1 + 1] ]
+  ask node 1 [ifelse (short_1_26 = false) [set short_1_26 0] [set short_1_26 short_1_26 set path1 path1 + 1] ]
+
+ ;ask node 1 [show path1] ;path verified ;25 other nodes in the NoF show possible paths with node 1 hence the total paths from node 1 is 25.
+
+
+;; Finding paths between node 2 and other factors
+  ask nodes [set short_2 nw:distance-to node 2]
+  ;ask nodes [show short_2]
+
+  ask node 2 [ set j 0 set path2 0
+    loop [ ifelse (j = 27) [ stop ] [if (nw:distance-to node j != 0) [set path2 path2 + 1] ] set j j + 1] ]
+; ask node 2 [ show path2 ] ;path verified ;26 other nodes in the NoF show possible paths with this node.
+
+
+;; Finding paths between node 3 and other factors
+  ask nodes [set short_3 nw:distance-to node 3]
+ ; ask nodes [show short_3]
+
+  ask node 3 [ set j 0 set path3 0
+    loop [ ifelse (j = 27) [ stop ] [if (nw:distance-to node j != 0) [set path3 path3 + 1] ] set j j + 1] ]
+ ;ask node 3 [ show path3 ] ;path verified ;26 other nodes in the NoF show possible paths with this node.
+
+
+;; Finding paths between node 4 and other factors
+  ask nodes [set short_4 nw:distance-to node 4]
+  ;ask nodes [show short_4]
+
+  ask node 4 [ set j 0 set path4 0
+    loop [ ifelse (j = 27) [ stop ] [if (nw:distance-to node j != 0) [set path4 path4 + 1] ] set j j + 1] ]
+ ;ask node 4 [ show path4 ] ;path verified ;26 other nodes in the NoF show possible paths with this node.
+
+
+;; Finding paths between node 5 and other factors
+  ask nodes [set short_5 nw:distance-to node 5]
+ ; ask nodes [show short_5]
+
+  ask node 5 [ set j 0 set path5 0
+    loop [ ifelse (j = 27) [ stop ] [if (nw:distance-to node j != 0) [set path5 path5 + 1] ] set j j + 1] ]
+; ask node 5 [ show path5 ] ;path verified ;26 other nodes in the NoF show possible paths with this node.
+
+
+;; Finding paths between node 6 and other factors
+  ask nodes [set short_6 nw:distance-to node 6]
+ ;ask nodes [show short_6]
+
+  ask node 6 [ set j 0 set path6 0
+    loop [ ifelse (j = 27) [ stop ] [if (nw:distance-to node j != 0) [set path6 path6 + 1] ] set j j + 1] ]
+ ;ask node 6 [ show path6 ] ;path verified ;26 other nodes in the NoF show possible paths with this node.
+
+
+;; Finding paths between node 7 and other factors
+  ask nodes [set short_7 nw:distance-to node 7]
+ ;ask nodes [show short_7]
+
+  ask node 7 [ set j 0 set path7 0
+    loop [ ifelse (j = 27) [ stop ] [if (nw:distance-to node j != 0) [set path7 path7 + 1] ] set j j + 1] ]
+ ;ask node 7 [ show path7 ] ;path verified ;26 other nodes in the NoF show possible paths with this node.
+
+
+;; Finding paths between node 8 and other factors
+  ask nodes [set short_8 nw:distance-to node 8]
+  ;ask nodes [show short_8]
+
+  ask node 8 [ set j 0 set path8 0
+    loop [ ifelse (j = 27) [ stop ] [if (nw:distance-to node j != 0) [set path8 path8 + 1] ] set j j + 1] ]
+ ;ask node 8 [ show path8 ] ;path verified ;26 other nodes in the NoF show possible paths with this node.
+
+
+;; Finding paths between node 9 and other factors
+  ask nodes [set short_9 nw:distance-to node 9]
+  ;ask nodes [show short_9]
+
+  ask node 9 [ set j 0 set path9 0
+    loop [ ifelse (j = 27) [ stop ] [if (nw:distance-to node j != 0) [set path9 path9 + 1] ] set j j + 1] ]
+ ;ask node 9 [ show path9 ] ;path verified ;26 other nodes in the NoF show possible paths with this node.
+
+
+;; Finding paths between node 10 and other factors
+  ask nodes [set short_10 nw:distance-to node 10]
+ ; ask nodes [show short_10]
+
+  ask node 10 [ set j 0 set path10 0
+    loop [ ifelse (j = 27) [ stop ] [if (nw:distance-to node j != 0) [set path10 path10 + 1] ] set j j + 1] ]
+ ;ask node 10 [ show path10 ] ;path verified ;26 other nodes in the NoF show possible paths with this node.
+
+
+;; Finding paths between node 11 and other factors
+  ask nodes [set short_11 nw:distance-to node 11]
+ ; ask nodes [show short_11]
+
+  ask node 11 [ set j 0 set path11 0
+    loop [ ifelse (j = 27) [ stop ] [if (nw:distance-to node j != 0) [set path11 path11 + 1] ] set j j + 1] ]
+; ask node 11 [ show path11 ] ;path verified ;26 other nodes in the NoF show possible paths with this node.
+
+
+;; Finding paths between node 12 and other factors
+  ask nodes [set short_12 nw:distance-to node 12]
+ ;ask nodes [show short_12]
+
+  ask node 12 [ set j 0 set path12 0
+    loop [ ifelse (j = 27) [ stop ] [if (nw:distance-to node j != 0) [set path12 path12 + 1] ] set j j + 1] ]
+ ;ask node 12 [ show path12 ] ;path verified ;26 other nodes in the NoF show possible paths with this node.
+
+
+;; Finding paths between node 13 and other factors
+  ask nodes [set short_13 nw:distance-to node 13]
+ ; ask nodes [show short_13]
+
+  ask node 13 [ set j 0 set path13 0
+    loop [ ifelse (j = 27) [ stop ] [if (nw:distance-to node j != 0) [set path13 path13 + 1] ] set j j + 1] ]
+ ;ask node 13 [ show path13 ] ;path verified ;26 other nodes in the NoF show possible paths with this node.
+
+
+;; Finding paths between node 14 and other factors
+  ask nodes [set short_14 nw:distance-to node 14]
+ ; ask nodes [show short_14]
+
+  ask node 14 [ set j 0 set path14 0
+    loop [ ifelse (j = 27) [ stop ] [if (nw:distance-to node j != 0) [set path14 path14 + 1] ] set j j + 1] ]
+; ask node 14 [ show path14 ] ;path verified ;26 other nodes in the NoF show possible paths with this node.
+
+
+;; Finding paths between node 15 and other factors
+  ask nodes [set short_15 nw:distance-to node 15]
+ ;ask nodes [show short_15]
+
+  ask node 15 [ set j 0 set path15 0
+    loop [ ifelse (j = 27) [ stop ] [if (nw:distance-to node j != 0) [set path15 path15 + 1] ] set j j + 1] ]
+ ;ask node 15 [ show path15 ] ;path verified ;26 other nodes in the NoF show possible paths with this node.
+
+
+;; Finding paths between node 16 and other factors
+  ask nodes [set short_16 nw:distance-to node 16]
+ ; ask nodes [show short_16]
+
+  ask node 16 [ set j 0 set path16 0
+    loop [ ifelse (j = 27) [ stop ] [if (nw:distance-to node j != 0) [set path16 path16 + 1] ] set j j + 1] ]
+ ;ask node 16 [ show path16 ] ;path verified ;26 other nodes in the NoF show possible paths with this node.
+
+
+;; Finding paths between node 17 and other factors
+  ask nodes [set short_17 nw:distance-to node 17]
+ ;ask nodes [show short_17]
+
+  ask node 17 [ set j 0 set path17 0
+    loop [ ifelse (j = 27) [ stop ] [if (nw:distance-to node j != 0) [set path17 path17 + 1] ] set j j + 1] ]
+ ;ask node 17 [ show path17 ] ;path verified ;26 other nodes in the NoF show possible paths with this node.
+
+
+;; Finding paths between node 18 and other factors
+  ask nodes [set short_18 nw:distance-to node 18]
+ ;ask nodes [show short_18]
+
+  ask node 18 [ set j 0 set path18 0
+    loop [ ifelse (j = 27) [ stop ] [if (nw:distance-to node j != 0) [set path18 path18 + 1] ] set j j + 1] ]
+ ;ask node 18 [ show path18 ] ;path verified ;26 other nodes in the NoF show possible paths with this node.
+
+
+;; Finding paths between node 19 and other factors
+
+  ask node 19 [set short_19_0 nw:distance-to node 0]
+  ask node 19 [set short_19_1 nw:distance-to node 1]
+  ask node 19 [set short_19_2 nw:distance-to node 2]
+  ask node 19 [set short_19_3 nw:distance-to node 3]
+  ask node 19 [set short_19_4 nw:distance-to node 4]
+  ask node 19 [set short_19_5 nw:distance-to node 5]
+  ask node 19 [set short_19_6 nw:distance-to node 6]
+  ask node 19 [set short_19_7 nw:distance-to node 7]
+  ask node 19 [set short_19_8 nw:distance-to node 8]
+  ask node 19 [set short_19_9 nw:distance-to node 9]
+  ask node 19 [set short_19_10 nw:distance-to node 10]
+  ask node 19 [set short_19_11 nw:distance-to node 11]
+  ask node 19 [set short_19_12 nw:distance-to node 12]
+  ask node 19 [set short_19_13 nw:distance-to node 13]
+  ask node 19 [set short_19_14 nw:distance-to node 14]
+  ask node 19 [set short_19_15 nw:distance-to node 15]
+  ask node 19 [set short_19_16 nw:distance-to node 16]
+  ask node 19 [set short_19_17 nw:distance-to node 17]
+  ask node 19 [set short_19_18 nw:distance-to node 18]
+  ask node 19 [set short_19_19 nw:distance-to node 19]
+  ask node 19 [set short_19_20 nw:distance-to node 20]
+  ask node 19 [set short_19_21 nw:distance-to node 21]
+  ask node 19 [set short_19_22 nw:distance-to node 22]
+  ask node 19 [set short_19_23 nw:distance-to node 23]
+  ask node 19 [set short_19_24 nw:distance-to node 24]
+  ask node 19 [set short_19_25 nw:distance-to node 25]
+  ask node 19 [set short_19_26 nw:distance-to node 26]
+
+; ask node 19 [show short_19_0 show short_19_1 show short_19_2 show short_19_3 show short_19_4 show short_19_5 show short_19_6 show short_19_7 show short_19_8 show short_19_9 show short_19_10 show short_19_11 show short_19_12 show short_19_13 show short_19_14 show short_19_15 show short_19_16 show short_19_17 show short_19_18 show short_19_19 show short_19_20 show short_19_21 show short_19_22 show short_19_23 show short_19_24 show short_19_25 show short_19_26]
+
+  ask node 19 [ set path19 0 ]
+  ask node 19 [ifelse (short_19_0 = false) [set short_19_0 0] [set short_19_0 short_19_0 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_1 = false) [set short_19_1 0] [set short_19_1 short_19_1 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_2 = false) [set short_19_2 0] [set short_19_2 short_19_2 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_3 = false) [set short_19_3 0] [set short_19_3 short_19_3 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_4 = false) [set short_19_4 0] [set short_19_4 short_19_4 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_5 = false) [set short_19_5 0] [set short_19_5 short_19_5 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_6 = false) [set short_19_6 0] [set short_19_6 short_19_6 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_7 = false) [set short_19_7 0] [set short_19_7 short_19_7 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_8 = false) [set short_19_8 0] [set short_19_8 short_19_8 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_9 = false) [set short_19_9 0] [set short_19_9 short_19_9 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_10 = false) [set short_19_10 0] [set short_19_10 short_19_10 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_11 = false) [set short_19_11 0] [set short_19_11 short_19_11 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_12 = false) [set short_19_12 0] [set short_19_12 short_19_12 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_13 = false) [set short_19_13 0] [set short_19_13 short_19_13 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_14 = false) [set short_19_14 0] [set short_19_14 short_19_14 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_15 = false) [set short_19_15 0] [set short_19_15 short_19_15 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_16 = false) [set short_19_16 0] [set short_19_16 short_19_16 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_17 = false) [set short_19_17 0] [set short_19_17 short_19_17 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_18 = false) [set short_19_18 0] [set short_19_18 short_19_18 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_19 = false) [set short_19_19 0] [set short_19_19 short_19_19] ]
+  ask node 19 [ifelse (short_19_20 = false) [set short_19_20 0] [set short_19_20 short_19_20 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_21 = false) [set short_19_21 0] [set short_19_21 short_19_21 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_22 = false) [set short_19_22 0] [set short_19_22 short_19_22 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_23 = false) [set short_19_23 0] [set short_19_23 short_19_23 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_24 = false) [set short_19_24 0] [set short_19_24 short_19_24 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_25 = false) [set short_19_25 0] [set short_19_25 short_19_25 set path19 path19 + 1] ]
+  ask node 19 [ifelse (short_19_26 = false) [set short_19_26 0] [set short_19_26 short_19_26 set path19 path19 + 1] ]
+
+ ; ask node 19 [show path19] ;path verified ;22 other nodes in the NoF show possible paths with node 19 hence the total paths from node 19 is 22.
+
+
+;; Finding paths between node 20 and other factors
+
+  ask node 20 [set short_20_0 nw:distance-to node 0]
+  ask node 20 [set short_20_1 nw:distance-to node 1]
+  ask node 20 [set short_20_2 nw:distance-to node 2]
+  ask node 20 [set short_20_3 nw:distance-to node 3]
+  ask node 20 [set short_20_4 nw:distance-to node 4]
+  ask node 20 [set short_20_5 nw:distance-to node 5]
+  ask node 20 [set short_20_6 nw:distance-to node 6]
+  ask node 20 [set short_20_7 nw:distance-to node 7]
+  ask node 20 [set short_20_8 nw:distance-to node 8]
+  ask node 20 [set short_20_9 nw:distance-to node 9]
+  ask node 20 [set short_20_10 nw:distance-to node 10]
+  ask node 20 [set short_20_11 nw:distance-to node 11]
+  ask node 20 [set short_20_12 nw:distance-to node 12]
+  ask node 20 [set short_20_13 nw:distance-to node 13]
+  ask node 20 [set short_20_14 nw:distance-to node 14]
+  ask node 20 [set short_20_15 nw:distance-to node 15]
+  ask node 20 [set short_20_16 nw:distance-to node 16]
+  ask node 20 [set short_20_17 nw:distance-to node 17]
+  ask node 20 [set short_20_18 nw:distance-to node 18]
+  ask node 20 [set short_20_19 nw:distance-to node 19]
+  ask node 20 [set short_20_20 nw:distance-to node 20]
+  ask node 20 [set short_20_21 nw:distance-to node 21]
+  ask node 20 [set short_20_22 nw:distance-to node 22]
+  ask node 20 [set short_20_23 nw:distance-to node 23]
+  ask node 20 [set short_20_24 nw:distance-to node 24]
+  ask node 20 [set short_20_25 nw:distance-to node 25]
+  ask node 20 [set short_20_26 nw:distance-to node 26]
+
+ ;ask node 20 [show short_20_0 show short_20_1 show short_20_2 show short_20_3 show short_20_4 show short_20_5 show short_20_6 show short_20_7 show short_20_8 show short_20_9 show short_20_10 show short_20_11 show short_20_12 show short_20_13 show short_20_14 show short_20_15 show short_20_16 show short_20_17 show short_20_18 show short_20_19 show short_20_20 show short_20_21 show short_20_22 show short_20_23 show short_20_24 show short_20_25 show short_20_26]
+
+  ask node 20 [ set path20 0 ]
+  ask node 20 [ifelse (short_20_0 = false) [set short_20_0 0] [set short_20_0 short_20_0 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_1 = false) [set short_20_1 0] [set short_20_1 short_20_1 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_2 = false) [set short_20_2 0] [set short_20_2 short_20_2 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_3 = false) [set short_20_3 0] [set short_20_3 short_20_3 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_4 = false) [set short_20_4 0] [set short_20_4 short_20_4 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_5 = false) [set short_20_5 0] [set short_20_5 short_20_5 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_6 = false) [set short_20_6 0] [set short_20_6 short_20_6 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_7 = false) [set short_20_7 0] [set short_20_7 short_20_7 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_8 = false) [set short_20_8 0] [set short_20_8 short_20_8 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_9 = false) [set short_20_9 0] [set short_20_9 short_20_9 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_10 = false) [set short_20_10 0] [set short_20_10 short_20_10 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_11 = false) [set short_20_11 0] [set short_20_11 short_20_11 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_12 = false) [set short_20_12 0] [set short_20_12 short_20_12 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_13 = false) [set short_20_13 0] [set short_20_13 short_20_13 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_14 = false) [set short_20_14 0] [set short_20_14 short_20_14 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_15 = false) [set short_20_15 0] [set short_20_15 short_20_15 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_16 = false) [set short_20_16 0] [set short_20_16 short_20_16 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_17 = false) [set short_20_17 0] [set short_20_17 short_20_17 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_18 = false) [set short_20_18 0] [set short_20_18 short_20_18 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_19 = false) [set short_20_19 0] [set short_20_19 short_20_19 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_20 = false) [set short_20_20 0] [set short_20_20 short_20_20] ]
+  ask node 20 [ifelse (short_20_21 = false) [set short_20_21 0] [set short_20_21 short_20_21 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_22 = false) [set short_20_22 0] [set short_20_22 short_20_22 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_23 = false) [set short_20_23 0] [set short_20_23 short_20_23 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_24 = false) [set short_20_24 0] [set short_20_24 short_20_24 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_25 = false) [set short_20_25 0] [set short_20_25 short_20_25 set path20 path20 + 1] ]
+  ask node 20 [ifelse (short_20_26 = false) [set short_20_26 0] [set short_20_26 short_20_26 set path20 path20 + 1] ]
+
+ ; ask node 20 [show path20] ;path verified ;23 other nodes in the NoF show possible paths with node 20 hence the total paths from node 20 is 23.
+
+
+;; Finding paths between node 21 and other factors
+
+  ask node 21 [set short_21_0 nw:distance-to node 0]
+  ask node 21 [set short_21_1 nw:distance-to node 1]
+  ask node 21 [set short_21_2 nw:distance-to node 2]
+  ask node 21 [set short_21_3 nw:distance-to node 3]
+  ask node 21 [set short_21_4 nw:distance-to node 4]
+  ask node 21 [set short_21_5 nw:distance-to node 5]
+  ask node 21 [set short_21_6 nw:distance-to node 6]
+  ask node 21 [set short_21_7 nw:distance-to node 7]
+  ask node 21 [set short_21_8 nw:distance-to node 8]
+  ask node 21 [set short_21_9 nw:distance-to node 9]
+  ask node 21 [set short_21_10 nw:distance-to node 10]
+  ask node 21 [set short_21_11 nw:distance-to node 11]
+  ask node 21 [set short_21_12 nw:distance-to node 12]
+  ask node 21 [set short_21_13 nw:distance-to node 13]
+  ask node 21 [set short_21_14 nw:distance-to node 14]
+  ask node 21 [set short_21_15 nw:distance-to node 15]
+  ask node 21 [set short_21_16 nw:distance-to node 16]
+  ask node 21 [set short_21_17 nw:distance-to node 17]
+  ask node 21 [set short_21_18 nw:distance-to node 18]
+  ask node 21 [set short_21_19 nw:distance-to node 19]
+  ask node 21 [set short_21_20 nw:distance-to node 20]
+  ask node 21 [set short_21_21 nw:distance-to node 21]
+  ask node 21 [set short_21_22 nw:distance-to node 22]
+  ask node 21 [set short_21_23 nw:distance-to node 23]
+  ask node 21 [set short_21_24 nw:distance-to node 24]
+  ask node 21 [set short_21_25 nw:distance-to node 25]
+  ask node 21 [set short_21_26 nw:distance-to node 26]
+
+ ;ask node 21 [show short_21_0 show short_21_1 show short_21_2 show short_21_3 show short_21_4 show short_21_5 show short_21_6 show short_21_7 show short_21_8 show short_21_9 show short_21_10 show short_21_11 show short_21_12 show short_21_13 show short_21_14 show short_21_15 show short_21_16 show short_21_17 show short_21_18 show short_21_19 show short_21_20 show short_21_21 show short_21_22 show short_21_23 show short_21_24 show short_21_25 show short_21_26]
+
+  ask node 21 [ set path21 0 ]
+  ask node 21 [ifelse (short_21_0 = false) [set short_21_0 0] [set short_21_0 short_21_0 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_1 = false) [set short_21_1 0] [set short_21_1 short_21_1 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_2 = false) [set short_21_2 0] [set short_21_2 short_21_2 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_3 = false) [set short_21_3 0] [set short_21_3 short_21_3 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_4 = false) [set short_21_4 0] [set short_21_4 short_21_4 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_5 = false) [set short_21_5 0] [set short_21_5 short_21_5 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_6 = false) [set short_21_6 0] [set short_21_6 short_21_6 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_7 = false) [set short_21_7 0] [set short_21_7 short_21_7 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_8 = false) [set short_21_8 0] [set short_21_8 short_21_8 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_9 = false) [set short_21_9 0] [set short_21_9 short_21_9 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_10 = false) [set short_21_10 0] [set short_21_10 short_21_10 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_11 = false) [set short_21_11 0] [set short_21_11 short_21_11 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_12 = false) [set short_21_12 0] [set short_21_12 short_21_12 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_13 = false) [set short_21_13 0] [set short_21_13 short_21_13 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_14 = false) [set short_21_14 0] [set short_21_14 short_21_14 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_15 = false) [set short_21_15 0] [set short_21_15 short_21_15 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_16 = false) [set short_21_16 0] [set short_21_16 short_21_16 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_17 = false) [set short_21_17 0] [set short_21_17 short_21_17 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_18 = false) [set short_21_18 0] [set short_21_18 short_21_18 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_19 = false) [set short_21_19 0] [set short_21_19 short_21_19 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_20 = false) [set short_21_20 0] [set short_21_20 short_21_20 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_21 = false) [set short_21_21 0] [set short_21_21 short_21_21] ]
+  ask node 21 [ifelse (short_21_22 = false) [set short_21_22 0] [set short_21_22 short_21_22 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_23 = false) [set short_21_23 0] [set short_21_23 short_21_23 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_24 = false) [set short_21_24 0] [set short_21_24 short_21_24 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_25 = false) [set short_21_25 0] [set short_21_25 short_21_25 set path21 path21 + 1] ]
+  ask node 21 [ifelse (short_21_26 = false) [set short_21_26 0] [set short_21_26 short_21_26 set path21 path21 + 1] ]
+
+  ;ask node 21 [show path21] ;path verified ;17 other nodes in the NoF show possible paths with node 21 hence the total paths from node 21 is 17.
+
+
+;; Finding paths between node 22 and other factors
+
+  ask node 22 [set short_22_0 nw:distance-to node 0]
+  ask node 22 [set short_22_1 nw:distance-to node 1]
+  ask node 22 [set short_22_2 nw:distance-to node 2]
+  ask node 22 [set short_22_3 nw:distance-to node 3]
+  ask node 22 [set short_22_4 nw:distance-to node 4]
+  ask node 22 [set short_22_5 nw:distance-to node 5]
+  ask node 22 [set short_22_6 nw:distance-to node 6]
+  ask node 22 [set short_22_7 nw:distance-to node 7]
+  ask node 22 [set short_22_8 nw:distance-to node 8]
+  ask node 22 [set short_22_9 nw:distance-to node 9]
+  ask node 22 [set short_22_10 nw:distance-to node 10]
+  ask node 22 [set short_22_11 nw:distance-to node 11]
+  ask node 22 [set short_22_12 nw:distance-to node 12]
+  ask node 22 [set short_22_13 nw:distance-to node 13]
+  ask node 22 [set short_22_14 nw:distance-to node 14]
+  ask node 22 [set short_22_15 nw:distance-to node 15]
+  ask node 22 [set short_22_16 nw:distance-to node 16]
+  ask node 22 [set short_22_17 nw:distance-to node 17]
+  ask node 22 [set short_22_18 nw:distance-to node 18]
+  ask node 22 [set short_22_19 nw:distance-to node 19]
+  ask node 22 [set short_22_20 nw:distance-to node 20]
+  ask node 22 [set short_22_21 nw:distance-to node 21]
+  ask node 22 [set short_22_22 nw:distance-to node 22]
+  ask node 22 [set short_22_23 nw:distance-to node 23]
+  ask node 22 [set short_22_24 nw:distance-to node 24]
+  ask node 22 [set short_22_25 nw:distance-to node 25]
+  ask node 22 [set short_22_26 nw:distance-to node 26]
+
+  ;ask node 22 [show short_22_0 show short_22_1 show short_22_2 show short_22_3 show short_22_4 show short_22_5 show short_22_6 show short_22_7 show short_22_8 show short_22_9 show short_22_10 show short_22_11 show short_22_12 show short_22_13 show short_22_14 show short_22_15 show short_22_16 show short_22_17 show short_22_18 show short_22_19 show short_22_20 show short_22_21 show short_22_22 show short_22_23 show short_22_24 show short_22_25 show short_22_26]
+
+  ask node 22 [ set path22 0 ]
+  ask node 22 [ifelse (short_22_0 = false) [set short_22_0 0] [set short_22_0 short_22_0 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_1 = false) [set short_22_1 0] [set short_22_1 short_22_1 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_2 = false) [set short_22_2 0] [set short_22_2 short_22_2 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_3 = false) [set short_22_3 0] [set short_22_3 short_22_3 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_4 = false) [set short_22_4 0] [set short_22_4 short_22_4 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_5 = false) [set short_22_5 0] [set short_22_5 short_22_5 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_6 = false) [set short_22_6 0] [set short_22_6 short_22_6 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_7 = false) [set short_22_7 0] [set short_22_7 short_22_7 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_8 = false) [set short_22_8 0] [set short_22_8 short_22_8 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_9 = false) [set short_22_9 0] [set short_22_9 short_22_9 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_10 = false) [set short_22_10 0] [set short_22_10 short_22_10 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_11 = false) [set short_22_11 0] [set short_22_11 short_22_11 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_12 = false) [set short_22_12 0] [set short_22_12 short_22_12 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_13 = false) [set short_22_13 0] [set short_22_13 short_22_13 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_14 = false) [set short_22_14 0] [set short_22_14 short_22_14 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_15 = false) [set short_22_15 0] [set short_22_15 short_22_15 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_16 = false) [set short_22_16 0] [set short_22_16 short_22_16 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_17 = false) [set short_22_17 0] [set short_22_17 short_22_17 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_18 = false) [set short_22_18 0] [set short_22_18 short_22_18 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_19 = false) [set short_22_19 0] [set short_22_19 short_22_19 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_20 = false) [set short_22_20 0] [set short_22_20 short_22_20 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_21 = false) [set short_22_21 0] [set short_22_21 short_22_21 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_22 = false) [set short_22_22 0] [set short_22_22 short_22_22] ]
+  ask node 22 [ifelse (short_22_23 = false) [set short_22_23 0] [set short_22_23 short_22_23 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_24 = false) [set short_22_24 0] [set short_22_24 short_22_24 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_25 = false) [set short_22_25 0] [set short_22_25 short_22_25 set path22 path22 + 1] ]
+  ask node 22 [ifelse (short_22_26 = false) [set short_22_26 0] [set short_22_26 short_22_26 set path22 path22 + 1] ]
+
+  ;ask node 22 [show path22] ;path verified ;22 other nodes in the NoF show possible paths with node 22 hence the total paths from node 22 is 22.
+
+
+;; Finding paths between node 23 and other factors
+
+  ask node 23 [set short_23_0 nw:distance-to node 0]
+  ask node 23 [set short_23_1 nw:distance-to node 1]
+  ask node 23 [set short_23_2 nw:distance-to node 2]
+  ask node 23 [set short_23_3 nw:distance-to node 3]
+  ask node 23 [set short_23_4 nw:distance-to node 4]
+  ask node 23 [set short_23_5 nw:distance-to node 5]
+  ask node 23 [set short_23_6 nw:distance-to node 6]
+  ask node 23 [set short_23_7 nw:distance-to node 7]
+  ask node 23 [set short_23_8 nw:distance-to node 8]
+  ask node 23 [set short_23_9 nw:distance-to node 9]
+  ask node 23 [set short_23_10 nw:distance-to node 10]
+  ask node 23 [set short_23_11 nw:distance-to node 11]
+  ask node 23 [set short_23_12 nw:distance-to node 12]
+  ask node 23 [set short_23_13 nw:distance-to node 13]
+  ask node 23 [set short_23_14 nw:distance-to node 14]
+  ask node 23 [set short_23_15 nw:distance-to node 15]
+  ask node 23 [set short_23_16 nw:distance-to node 16]
+  ask node 23 [set short_23_17 nw:distance-to node 17]
+  ask node 23 [set short_23_18 nw:distance-to node 18]
+  ask node 23 [set short_23_19 nw:distance-to node 19]
+  ask node 23 [set short_23_20 nw:distance-to node 20]
+  ask node 23 [set short_23_21 nw:distance-to node 21]
+  ask node 23 [set short_23_22 nw:distance-to node 22]
+  ask node 23 [set short_23_23 nw:distance-to node 23]
+  ask node 23 [set short_23_24 nw:distance-to node 24]
+  ask node 23 [set short_23_25 nw:distance-to node 25]
+  ask node 23 [set short_23_26 nw:distance-to node 26]
+
+  ;ask node 23 [show short_23_0 show short_23_1 show short_23_2 show short_23_3 show short_23_4 show short_23_5 show short_23_6 show short_23_7 show short_23_8 show short_23_9 show short_23_10 show short_23_11 show short_23_12 show short_23_13 show short_23_14 show short_23_15 show short_23_16 show short_23_17 show short_23_18 show short_23_19 show short_23_20 show short_23_21 show short_23_22 show short_23_23 show short_23_24 show short_23_25 show short_23_26]
+
+  ask node 23 [ set path23 0 ]
+  ask node 23 [ifelse (short_23_0 = false) [set short_23_0 0] [set short_23_0 short_23_0 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_1 = false) [set short_23_1 0] [set short_23_1 short_23_1 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_2 = false) [set short_23_2 0] [set short_23_2 short_23_2 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_3 = false) [set short_23_3 0] [set short_23_3 short_23_3 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_4 = false) [set short_23_4 0] [set short_23_4 short_23_4 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_5 = false) [set short_23_5 0] [set short_23_5 short_23_5 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_6 = false) [set short_23_6 0] [set short_23_6 short_23_6 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_7 = false) [set short_23_7 0] [set short_23_7 short_23_7 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_8 = false) [set short_23_8 0] [set short_23_8 short_23_8 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_9 = false) [set short_23_9 0] [set short_23_9 short_23_9 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_10 = false) [set short_23_10 0] [set short_23_10 short_23_10 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_11 = false) [set short_23_11 0] [set short_23_11 short_23_11 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_12 = false) [set short_23_12 0] [set short_23_12 short_23_12 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_13 = false) [set short_23_13 0] [set short_23_13 short_23_13 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_14 = false) [set short_23_14 0] [set short_23_14 short_23_14 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_15 = false) [set short_23_15 0] [set short_23_15 short_23_15 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_16 = false) [set short_23_16 0] [set short_23_16 short_23_16 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_17 = false) [set short_23_17 0] [set short_23_17 short_23_17 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_18 = false) [set short_23_18 0] [set short_23_18 short_23_18 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_19 = false) [set short_23_19 0] [set short_23_19 short_23_19 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_20 = false) [set short_23_20 0] [set short_23_20 short_23_20 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_21 = false) [set short_23_21 0] [set short_23_21 short_23_21 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_22 = false) [set short_23_22 0] [set short_23_22 short_23_22 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_23 = false) [set short_23_23 0] [set short_23_23 short_23_23] ]
+  ask node 23 [ifelse (short_23_24 = false) [set short_23_24 0] [set short_23_24 short_23_24 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_25 = false) [set short_23_25 0] [set short_23_25 short_23_25 set path23 path23 + 1] ]
+  ask node 23 [ifelse (short_23_26 = false) [set short_23_26 0] [set short_23_26 short_23_26 set path23 path23 + 1] ]
+
+  ;ask node 23 [show path23] ;path verified ;22 other nodes in the NoF show possible paths with node 23 hence the total paths from node 23 is 22.
+
+
+
+;; Finding paths between node 24 and other factors
+
+  ask node 24 [set short_24_0 nw:distance-to node 0]
+  ask node 24 [set short_24_1 nw:distance-to node 1]
+  ask node 24 [set short_24_2 nw:distance-to node 2]
+  ask node 24 [set short_24_3 nw:distance-to node 3]
+  ask node 24 [set short_24_4 nw:distance-to node 4]
+  ask node 24 [set short_24_5 nw:distance-to node 5]
+  ask node 24 [set short_24_6 nw:distance-to node 6]
+  ask node 24 [set short_24_7 nw:distance-to node 7]
+  ask node 24 [set short_24_8 nw:distance-to node 8]
+  ask node 24 [set short_24_9 nw:distance-to node 9]
+  ask node 24 [set short_24_10 nw:distance-to node 10]
+  ask node 24 [set short_24_11 nw:distance-to node 11]
+  ask node 24 [set short_24_12 nw:distance-to node 12]
+  ask node 24 [set short_24_13 nw:distance-to node 13]
+  ask node 24 [set short_24_14 nw:distance-to node 14]
+  ask node 24 [set short_24_15 nw:distance-to node 15]
+  ask node 24 [set short_24_16 nw:distance-to node 16]
+  ask node 24 [set short_24_17 nw:distance-to node 17]
+  ask node 24 [set short_24_18 nw:distance-to node 18]
+  ask node 24 [set short_24_19 nw:distance-to node 19]
+  ask node 24 [set short_24_20 nw:distance-to node 20]
+  ask node 24 [set short_24_21 nw:distance-to node 21]
+  ask node 24 [set short_24_22 nw:distance-to node 22]
+  ask node 24 [set short_24_23 nw:distance-to node 23]
+  ask node 24 [set short_24_24 nw:distance-to node 24]
+  ask node 24 [set short_24_25 nw:distance-to node 25]
+  ask node 24 [set short_24_26 nw:distance-to node 26]
+
+  ;ask node 24 [show short_24_0 show short_24_1 show short_24_2 show short_24_3 show short_24_4 show short_24_5 show short_24_6 show short_24_7 show short_24_8 show short_24_9 show short_24_10 show short_24_11 show short_24_12 show short_24_13 show short_24_14 show short_24_15 show short_24_16 show short_24_17 show short_24_18 show short_24_19 show short_24_20 show short_24_21 show short_24_22 show short_24_23 show short_24_24 show short_24_25 show short_24_26]
+
+  ask node 24 [ set path24 0 ]
+  ask node 24 [ifelse (short_24_0 = false) [set short_24_0 0] [set short_24_0 short_24_0 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_1 = false) [set short_24_1 0] [set short_24_1 short_24_1 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_2 = false) [set short_24_2 0] [set short_24_2 short_24_2 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_3 = false) [set short_24_3 0] [set short_24_3 short_24_3 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_4 = false) [set short_24_4 0] [set short_24_4 short_24_4 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_5 = false) [set short_24_5 0] [set short_24_5 short_24_5 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_6 = false) [set short_24_6 0] [set short_24_6 short_24_6 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_7 = false) [set short_24_7 0] [set short_24_7 short_24_7 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_8 = false) [set short_24_8 0] [set short_24_8 short_24_8 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_9 = false) [set short_24_9 0] [set short_24_9 short_24_9 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_10 = false) [set short_24_10 0] [set short_24_10 short_24_10 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_11 = false) [set short_24_11 0] [set short_24_11 short_24_11 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_12 = false) [set short_24_12 0] [set short_24_12 short_24_12 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_13 = false) [set short_24_13 0] [set short_24_13 short_24_13 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_14 = false) [set short_24_14 0] [set short_24_14 short_24_14 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_15 = false) [set short_24_15 0] [set short_24_15 short_24_15 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_16 = false) [set short_24_16 0] [set short_24_16 short_24_16 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_17 = false) [set short_24_17 0] [set short_24_17 short_24_17 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_18 = false) [set short_24_18 0] [set short_24_18 short_24_18 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_19 = false) [set short_24_19 0] [set short_24_19 short_24_19 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_20 = false) [set short_24_20 0] [set short_24_20 short_24_20 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_21 = false) [set short_24_21 0] [set short_24_21 short_24_21 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_22 = false) [set short_24_22 0] [set short_24_22 short_24_22 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_23 = false) [set short_24_23 0] [set short_24_23 short_24_23 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_24 = false) [set short_24_24 0] [set short_24_24 short_24_24] ]
+  ask node 24 [ifelse (short_24_25 = false) [set short_24_25 0] [set short_24_25 short_24_25 set path24 path24 + 1] ]
+  ask node 24 [ifelse (short_24_26 = false) [set short_24_26 0] [set short_24_26 short_24_26 set path24 path24 + 1] ]
+
+  ;ask node 24 [show path24] ;path verified ;22 other nodes in the NoF show possible paths with node 24 hence the total paths from node 24 is 22.
+
+
+
+;; Finding paths between node 25 and other factors
+
+  ask node 25 [set short_25_0 nw:distance-to node 0]
+  ask node 25 [set short_25_1 nw:distance-to node 1]
+  ask node 25 [set short_25_2 nw:distance-to node 2]
+  ask node 25 [set short_25_3 nw:distance-to node 3]
+  ask node 25 [set short_25_4 nw:distance-to node 4]
+  ask node 25 [set short_25_5 nw:distance-to node 5]
+  ask node 25 [set short_25_6 nw:distance-to node 6]
+  ask node 25 [set short_25_7 nw:distance-to node 7]
+  ask node 25 [set short_25_8 nw:distance-to node 8]
+  ask node 25 [set short_25_9 nw:distance-to node 9]
+  ask node 25 [set short_25_10 nw:distance-to node 10]
+  ask node 25 [set short_25_11 nw:distance-to node 11]
+  ask node 25 [set short_25_12 nw:distance-to node 12]
+  ask node 25 [set short_25_13 nw:distance-to node 13]
+  ask node 25 [set short_25_14 nw:distance-to node 14]
+  ask node 25 [set short_25_15 nw:distance-to node 15]
+  ask node 25 [set short_25_16 nw:distance-to node 16]
+  ask node 25 [set short_25_17 nw:distance-to node 17]
+  ask node 25 [set short_25_18 nw:distance-to node 18]
+  ask node 25 [set short_25_19 nw:distance-to node 19]
+  ask node 25 [set short_25_20 nw:distance-to node 20]
+  ask node 25 [set short_25_21 nw:distance-to node 21]
+  ask node 25 [set short_25_22 nw:distance-to node 22]
+  ask node 25 [set short_25_23 nw:distance-to node 23]
+  ask node 25 [set short_25_24 nw:distance-to node 24]
+  ask node 25 [set short_25_25 nw:distance-to node 25]
+  ask node 25 [set short_25_26 nw:distance-to node 26]
+
+  ;ask node 25 [show short_25_0 show short_25_1 show short_25_2 show short_25_3 show short_25_4 show short_25_5 show short_25_6 show short_25_7 show short_25_8 show short_25_9 show short_25_10 show short_25_11 show short_25_12 show short_25_13 show short_25_14 show short_25_15 show short_25_16 show short_25_17 show short_25_18 show short_25_19 show short_25_20 show short_25_21 show short_25_22 show short_25_23 show short_25_24 show short_25_25 show short_25_26]
+
   ask node 25 [ set path25 0 ]
-  ask node 25 [
-    ifelse (short_za = false) [
-      set short_za 0
-    ]
-    [
-      set short_za short_za
-      set path25 path25 + 1
-    ]
-  ]
+  ask node 25 [ifelse (short_25_0 = false) [set short_25_0 0] [set short_25_0 short_25_0 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_1 = false) [set short_25_1 0] [set short_25_1 short_25_1 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_2 = false) [set short_25_2 0] [set short_25_2 short_25_2 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_3 = false) [set short_25_3 0] [set short_25_3 short_25_3 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_4 = false) [set short_25_4 0] [set short_25_4 short_25_4 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_5 = false) [set short_25_5 0] [set short_25_5 short_25_5 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_6 = false) [set short_25_6 0] [set short_25_6 short_25_6 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_7 = false) [set short_25_7 0] [set short_25_7 short_25_7 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_8 = false) [set short_25_8 0] [set short_25_8 short_25_8 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_9 = false) [set short_25_9 0] [set short_25_9 short_25_9 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_10 = false) [set short_25_10 0] [set short_25_10 short_25_10 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_11 = false) [set short_25_11 0] [set short_25_11 short_25_11 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_12 = false) [set short_25_12 0] [set short_25_12 short_25_12 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_13 = false) [set short_25_13 0] [set short_25_13 short_25_13 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_14 = false) [set short_25_14 0] [set short_25_14 short_25_14 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_15 = false) [set short_25_15 0] [set short_25_15 short_25_15 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_16 = false) [set short_25_16 0] [set short_25_16 short_25_16 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_17 = false) [set short_25_17 0] [set short_25_17 short_25_17 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_18 = false) [set short_25_18 0] [set short_25_18 short_25_18 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_19 = false) [set short_25_19 0] [set short_25_19 short_25_19 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_20 = false) [set short_25_20 0] [set short_25_20 short_25_20 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_21 = false) [set short_25_21 0] [set short_25_21 short_25_21 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_22 = false) [set short_25_22 0] [set short_25_22 short_25_22 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_23 = false) [set short_25_23 0] [set short_25_23 short_25_23 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_24 = false) [set short_25_24 0] [set short_25_24 short_25_24 set path25 path25 + 1] ]
+  ask node 25 [ifelse (short_25_25 = false) [set short_25_25 0] [set short_25_25 short_25_25] ]
+  ask node 25 [ifelse (short_25_26 = false) [set short_25_26 0] [set short_25_26 short_25_26 set path25 path25 + 1] ]
 
-      ask node 25 [
-    ifelse (short_zb = false) [
-      set short_zb 0
-    ]
-    [
-      set short_zb short_zb
-      set path25 path25 + 1
-    ]
-  ]
-
-      ask node 25 [
-    ifelse (short_zc = false) [
-      set short_zc 0
-    ]
-    [
-      set short_zc short_zc
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zd = false) [
-      set short_zd 0
-    ]
-    [
-      set short_zd short_zd
-
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_ze = false) [
-      set short_ze 0
-    ]
-    [
-      set short_ze short_ze
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zf = false) [
-      set short_zf 0
-    ]
-    [
-      set short_zf short_zf
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zg = false) [
-      set short_zg 0
-    ]
-    [
-      set short_zg short_zg
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zh = false) [
-      set short_zh 0
-    ]
-    [
-      set short_zh short_zh
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zi = false) [
-      set short_zi 0
-    ]
-    [
-      set short_zi short_zi
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zj = false) [
-      set short_zj 0
-    ]
-    [
-      set short_zj short_zj
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zk = false) [
-      set short_zk 0
-    ]
-    [
-      set short_zk short_zk
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zl = false) [
-      set short_zl 0
-    ]
-    [
-      set short_zl short_zl
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zm = false) [
-      set short_zm 0
-    ]
-    [
-      set short_zm short_zm
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zn = false) [
-      set short_zn 0
-    ]
-    [
-      set short_zn short_zn
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zo = false) [
-      set short_zo 0
-    ]
-    [
-      set short_zo short_zo
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zp = false) [
-      set short_zp 0
-    ]
-    [
-      set short_zp short_zp
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zq = false) [
-      set short_zq 0
-    ]
-    [
-      set short_zq short_zq
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zr = false) [
-      set short_zr 0
-    ]
-    [
-      set short_zr short_zr
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zs = false) [
-      set short_zs 0
-    ]
-    [
-      set short_zs short_zs
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zt = false) [
-      set short_zt 0
-    ]
-    [
-      set short_zt short_zt
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zu = false) [
-      set short_zu 0
-    ]
-    [
-      set short_zu short_zu
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zv = false) [
-      set short_zv 0
-    ]
-    [
-      set short_zv short_zv
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zw = false) [
-      set short_zw 0
-    ]
-    [
-      set short_zw short_zw
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zx = false) [
-      set short_zx 0
-    ]
-    [
-      set short_zx short_zx
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zy = false) [
-      set short_zy 0
-    ]
-    [
-      set short_zy short_zy
-      set path25 path25 + 1
-    ]
-  ]
-
-  ask node 25 [
-    ifelse (short_zz = false) [
-      set short_zz 0
-    ]
-    [
-      set short_zz short_zz
-      set path25 path25 + 1
-    ]
-  ]
-
-;  ask node 25 [ show path25 ]
-
-;  print "Characteristic pathlength of node 25 with other nodes"
-;  ask node 25 [ show short_za ]
-;  ask node 25 [ show short_zb ]
-;  ask node 25 [ show short_zc ]
-;  ask node 25 [ show short_zd ]
-;  ask node 25 [ show short_ze ]
-;  ask node 25 [ show short_zf ]
-;  ask node 25 [ show short_zg ]
-;  ask node 25 [ show short_zh ]
-;  ask node 25 [ show short_zi ]
-;  ask node 25 [ show short_zj ]
-;  ask node 25 [ show short_zk ]
-;  ask node 25 [ show short_zl ]
-;  ask node 25 [ show short_zm ]
-;  ask node 25 [ show short_zn ]
-;  ask node 25 [ show short_zo ]
-;  ask node 25 [ show short_zp ]
-;  ask node 25 [ show short_zq ]
-;  ask node 25 [ show short_zr ]
-;  ask node 25 [ show short_zs ]
-;  ask node 25 [ show short_zt ]
-;  ask node 25 [ show short_zu ]
-;  ask node 25 [ show short_zv ]
-;  ask node 25 [ show short_zw ]
-;  ask node 25 [ show short_zx ]
-;  ask node 25 [ show short_zy ]
-;  ask node 25 [ show short_zz ]
+  ;ask node 25 [show path25] ;path verified ;23 other nodes in the NoF show possible paths with node 25 hence the total paths from node 25 is 23.
 
 
-  ask node 0 [ set short0 short_aa + short_ab + short_ac + short_ad + short_ae + short_af + short_ag + short_ah + short_ai + short_aj + short_ak + short_al + short_am + short_an + short_ao + short_ap + short_aq + short_ar + short_as + short_at + short_au + short_av + short_aw + short_ax + short_ay + short_az ]
-  ask node 1 [ set short1 short_ba + short_bb + short_bc + short_bd + short_be + short_bf + short_bg + short_bh + short_bi + short_bj + short_bk + short_bl + short_bm + short_bn + short_bo + short_bp + short_bq + short_br + short_bs + short_bt + short_bu + short_bv + short_bw + short_bx + short_by + short_bz ]
-  ask node 2 [ set short2 sum[shortc] of nodes]
-  ask node 3 [ set short3 sum[shortd] of nodes]
-  ask node 4 [ set short4 sum[shorte] of nodes]
-  ask node 5 [ set short5 sum[shortf] of nodes]
-  ask node 6 [ set short6 sum[shortg] of nodes]
-  ask node 7 [ set short7 sum[shorth] of nodes]
-  ask node 8 [ set short8 sum[shorti] of nodes]
-  ask node 9 [ set short9 sum[shortj] of nodes]
-  ask node 10 [ set short10 sum[shortk] of nodes]
-  ask node 11 [ set short11 sum[shortl] of nodes]
-  ask node 12 [ set short12 sum[shortm] of nodes]
-  ask node 13 [ set short13 sum[shortn] of nodes]
-  ask node 14 [ set short14 short_oa + short_ob + short_oc + short_od + short_oe + short_of + short_og + short_oh + short_oi + short_oj + short_ok + short_ol + short_om + short_on + short_oo + short_op + short_oq + short_or + short_os + short_ot + short_ou + short_ov + short_ow + short_ox + short_oy + short_oz ]
-  ask node 15 [ set short15 sum[shortp] of nodes]
-  ask node 16 [ set short16 sum[shortq] of nodes]
-  ask node 17 [ set short17 sum[shortr] of nodes]
-  ask node 18 [ set short18 sum[shorts] of nodes]
-  ask node 19 [ set short19 sum[shortt] of nodes]
-  ask node 20 [ set short20 short_ua + short_ub + short_uc + short_ud + short_ue + short_uf + short_ug + short_uh + short_ui + short_uj + short_uk + short_ul + short_um + short_un + short_uo + short_up + short_uq + short_ur + short_us + short_ut + short_uu + short_uv + short_uw + short_ux + short_uy + short_uz ]
-  ask node 21 [ set short21 sum[shortv] of nodes]
-  ask node 22 [ set short22 sum[shortw] of nodes]
-  ask node 23 [ set short23 sum[shortx] of nodes]
-  ask node 24 [ set short24 sum[shorty] of nodes]
-  ask node 25 [ set short25 short_za + short_zb + short_zc + short_zd + short_ze + short_zf + short_zg + short_zh + short_zi + short_zj + short_zk + short_zl + short_zm + short_zn + short_zo + short_zp + short_zq + short_zr + short_zs + short_zt + short_zu + short_zv + short_zw + short_zx + short_zy + short_zz ]
 
-;  ask node 0 [show short0]
-;  ask node 1 [show short1]
-;  ask node 2 [show short2]
-;  ask node 3 [show short3]
-;  ask node 4 [show short4]
-;  ask node 5 [show short5]
-;  ask node 6 [show short6]
-;  ask node 7 [show short7]
-;  ask node 8 [show short8]
-;  ask node 9 [show short9]
-;  ask node 10 [show short10]
-;  ask node 11 [show short11]
-;  ask node 12 [show short12]
-;  ask node 13 [show short13]
-;  ask node 14 [show short14]
-;  ask node 15 [show short15]
-;  ask node 16 [show short16]
-;  ask node 17 [show short17]
-;  ask node 18 [show short18]
-;  ask node 19 [show short19]
-;  ask node 20 [show short20]
-;  ask node 21 [show short21]
-;  ask node 22 [show short22]
-;  ask node 23 [show short23]
-;  ask node 24 [show short24]
-;  ask node 25 [show short25]
-  ask nodes [ set short short0 + short1 + short2 + short3 + short4 + short5 + short6 + short7 + short8 + short9 + short10 + short11 + short12 + short13 + short14 + short15 + short16 + short17 + short18 + short19 + short20 + short21 + short22 + short23 + short24 + short25 ]
+;; Finding paths between node 26 and other factors
+
+  ask node 26 [set short_26_0 nw:distance-to node 0]
+  ask node 26 [set short_26_1 nw:distance-to node 1]
+  ask node 26 [set short_26_2 nw:distance-to node 2]
+  ask node 26 [set short_26_3 nw:distance-to node 3]
+  ask node 26 [set short_26_4 nw:distance-to node 4]
+  ask node 26 [set short_26_5 nw:distance-to node 5]
+  ask node 26 [set short_26_6 nw:distance-to node 6]
+  ask node 26 [set short_26_7 nw:distance-to node 7]
+  ask node 26 [set short_26_8 nw:distance-to node 8]
+  ask node 26 [set short_26_9 nw:distance-to node 9]
+  ask node 26 [set short_26_10 nw:distance-to node 10]
+  ask node 26 [set short_26_11 nw:distance-to node 11]
+  ask node 26 [set short_26_12 nw:distance-to node 12]
+  ask node 26 [set short_26_13 nw:distance-to node 13]
+  ask node 26 [set short_26_14 nw:distance-to node 14]
+  ask node 26 [set short_26_15 nw:distance-to node 15]
+  ask node 26 [set short_26_16 nw:distance-to node 16]
+  ask node 26 [set short_26_17 nw:distance-to node 17]
+  ask node 26 [set short_26_18 nw:distance-to node 18]
+  ask node 26 [set short_26_19 nw:distance-to node 19]
+  ask node 26 [set short_26_20 nw:distance-to node 20]
+  ask node 26 [set short_26_21 nw:distance-to node 21]
+  ask node 26 [set short_26_22 nw:distance-to node 22]
+  ask node 26 [set short_26_23 nw:distance-to node 23]
+  ask node 26 [set short_26_24 nw:distance-to node 24]
+  ask node 26 [set short_26_25 nw:distance-to node 25]
+  ask node 26 [set short_26_26 nw:distance-to node 26]
+
+  ;ask node 26 [show short_26_0 show short_26_1 show short_26_2 show short_26_3 show short_26_4 show short_26_5 show short_26_6 show short_26_7 show short_26_8 show short_26_9 show short_26_10 show short_26_11 show short_26_12 show short_26_13 show short_26_14 show short_26_15 show short_26_16 show short_26_17 show short_26_18 show short_26_19 show short_26_20 show short_26_21 show short_26_22 show short_26_23 show short_26_24 show short_26_25 show short_26_26]
+
+  ask node 26 [ set path26 0 ]
+  ask node 26 [ifelse (short_26_0 = false) [set short_26_0 0] [set short_26_0 short_26_0 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_1 = false) [set short_26_1 0] [set short_26_1 short_26_1 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_2 = false) [set short_26_2 0] [set short_26_2 short_26_2 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_3 = false) [set short_26_3 0] [set short_26_3 short_26_3 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_4 = false) [set short_26_4 0] [set short_26_4 short_26_4 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_5 = false) [set short_26_5 0] [set short_26_5 short_26_5 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_6 = false) [set short_26_6 0] [set short_26_6 short_26_6 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_7 = false) [set short_26_7 0] [set short_26_7 short_26_7 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_8 = false) [set short_26_8 0] [set short_26_8 short_26_8 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_9 = false) [set short_26_9 0] [set short_26_9 short_26_9 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_10 = false) [set short_26_10 0] [set short_26_10 short_26_10 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_11 = false) [set short_26_11 0] [set short_26_11 short_26_11 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_12 = false) [set short_26_12 0] [set short_26_12 short_26_12 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_13 = false) [set short_26_13 0] [set short_26_13 short_26_13 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_14 = false) [set short_26_14 0] [set short_26_14 short_26_14 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_15 = false) [set short_26_15 0] [set short_26_15 short_26_15 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_16 = false) [set short_26_16 0] [set short_26_16 short_26_16 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_17 = false) [set short_26_17 0] [set short_26_17 short_26_17 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_18 = false) [set short_26_18 0] [set short_26_18 short_26_18 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_19 = false) [set short_26_19 0] [set short_26_19 short_26_19 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_20 = false) [set short_26_20 0] [set short_26_20 short_26_20 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_21 = false) [set short_26_21 0] [set short_26_21 short_26_21 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_22 = false) [set short_26_22 0] [set short_26_22 short_26_22 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_23 = false) [set short_26_23 0] [set short_26_23 short_26_23 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_24 = false) [set short_26_24 0] [set short_26_24 short_26_24 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_25 = false) [set short_26_25 0] [set short_26_25 short_26_25 set path26 path26 + 1] ]
+  ask node 26 [ifelse (short_26_26 = false) [set short_26_26 0] [set short_26_26 short_26_26] ]
+
+  ;ask node 26 [show path26] ;path verified ;23 other nodes in the NoF show possible paths with node 26 hence the total paths from node 26 is 23.
+
+
+;; Comment on the procedure: nw:distance-to syntax provides the shortest pathlengths between two nodes.So far we have calculated the pathlength between any two pair of nodes in the network and the possible number of characteristic
+  ;pathlengths that can be formed by a node (as indicated by pathi). The pathlength between any two pair of nodes is calculated directly for most nodes
+  ; and indirectly for few nodes (i.e., nodes 0, 1, 19, 20, 21, 22, 23, 24, 25, 26). Inorder to get the total of the shortest pathlengths between all nodes we need the summation of all the shortest pathlengths between every pair of nodes in the network.
+
+
+;; code for calculating the characteristic pathlength of the network ;;
+
+;; First, calculate the total shortest pathlength for every node with other nodes in the network.
+
+  ask node 0 [set short_i short_0_0 + short_0_1 + short_0_2 + short_0_3 + short_0_4 + short_0_5 + short_0_6 + short_0_7 + short_0_8 + short_0_9 + short_0_10 + short_0_11 + short_0_12 + short_0_13 + short_0_14 + short_0_15 + short_0_16 + short_0_17 + short_0_18 + short_0_19 + short_0_20 + short_0_21 + short_0_22 + short_0_23 + short_0_24 + short_0_25 + short_0_26]
+  ask node 1 [set short_TR short_1_0 + short_1_1 + short_1_2 + short_1_3 + short_1_4 + short_1_5 + short_1_6 + short_1_7 + short_1_8 + short_1_9 + short_1_10 + short_1_11 + short_1_12 + short_1_13 + short_1_14 + short_1_15 + short_1_16 + short_1_17 + short_1_18 + short_1_19 + short_1_20 + short_1_21 + short_1_22 + short_1_23 + short_1_24 + short_1_25 + short_1_26]
+  ask node 2 [set short_R sum[short_2] of nodes]
+  ask node 3 [set short_F sum[short_3] of nodes]
+  ask node 4 [set short_T sum[short_4] of nodes]
+  ask node 5 [set short_n sum[short_5] of nodes]
+  ask node 6 [set short_S sum[short_6] of nodes]
+  ask node 7 [set short_Cp sum[short_7] of nodes]
+  ask node 8 [set short_pHg sum[short_8] of nodes]
+  ask node 9 [set short_Xg sum[short_9] of nodes]
+  ask node 10 [set short_Cc sum[short_10] of nodes]
+  ask node 11 [set short_foc sum[short_11] of nodes]
+  ask node 12 [set short_pHw sum[short_12] of nodes]
+  ask node 13 [set short_Tw sum[short_13] of nodes]
+  ask node 14 [set short_pw sum[short_14] of nodes]
+  ask node 15 [set short_Ew sum[short_15] of nodes]
+  ask node 16 [set short_Iw sum[short_16] of nodes]
+  ask node 17 [set short_Aw sum[short_17] of nodes]
+  ask node 18 [set short_DOC sum[short_18] of nodes]
+  ask node 19 [set short_pHm short_19_0 + short_19_1 + short_19_2 + short_19_3 + short_19_4 + short_19_5 + short_19_6 + short_19_7 + short_19_8 + short_19_9 + short_19_10 + short_19_11 + short_19_12 + short_19_13 + short_19_14 + short_19_15 + short_19_16 + short_19_17 + short_19_18 + short_19_19 + short_19_20 + short_19_21 + short_19_22 + short_19_23 + short_19_24 + short_19_25 + short_19_26]
+  ask node 20 [set short_Tm short_20_0 + short_20_1 + short_20_2 + short_20_3 + short_20_4 + short_20_5 + short_20_6 + short_20_7 + short_20_8 + short_20_9 + short_20_10 + short_20_11 + short_20_12 + short_20_13 + short_20_14 + short_20_15 + short_20_16 + short_20_17 + short_20_18 + short_20_19 + short_20_20 + short_20_21 + short_20_22 + short_20_23 + short_20_24 + short_20_25 + short_20_26]
+  ask node 21 [set short_pm short_21_0 + short_21_1 + short_21_2 + short_21_3 + short_21_4 + short_21_5 + short_21_6 + short_21_7 + short_21_8 + short_21_9 + short_21_10 + short_21_11 + short_21_12 + short_21_13 + short_21_14 + short_21_15 + short_21_16 + short_21_17 + short_21_18 + short_21_19 + short_21_20 + short_21_21 + short_21_22 + short_21_23 + short_21_24 + short_21_25 + short_21_26]
+  ask node 22 [set short_Em short_22_0 + short_22_1 + short_22_2 + short_22_3 + short_22_4 + short_22_5 + short_22_6 + short_22_7 + short_22_8 + short_22_9 + short_22_10 + short_22_11 + short_22_12 + short_22_13 + short_22_14 + short_22_15 + short_22_16 + short_22_17 + short_22_18 + short_22_19 + short_22_20 + short_22_21 + short_22_22 + short_22_23 + short_22_24 + short_22_25 + short_22_26]
+  ask node 23 [set short_Im short_23_0 + short_23_1 + short_23_2 + short_23_3 + short_23_4 + short_23_5 + short_23_6 + short_23_7 + short_23_8 + short_23_9 + short_23_10 + short_23_11 + short_23_12 + short_23_13 + short_23_14 + short_23_15 + short_23_16 + short_23_17 + short_23_18 + short_23_19 + short_23_20 + short_23_21 + short_23_22 + short_23_23 + short_23_24 + short_23_25 + short_23_26]
+  ask node 24 [set short_Am short_24_0 + short_24_1 + short_24_2 + short_24_3 + short_24_4 + short_24_5 + short_24_6 + short_24_7 + short_24_8 + short_24_9 + short_24_10 + short_24_11 + short_24_12 + short_24_13 + short_24_14 + short_24_15 + short_24_16 + short_24_17 + short_24_18 + short_24_19 + short_24_20 + short_24_21 + short_24_22 + short_24_23 + short_24_24 + short_24_25 + short_24_26]
+  ask node 25 [set short_t short_25_0 + short_25_1 + short_25_2 + short_25_3 + short_25_4 + short_25_5 + short_25_6 + short_25_7 + short_25_8 + short_25_9 + short_25_10 + short_25_11 + short_25_12 + short_25_13 + short_25_14 + short_25_15 + short_25_16 + short_25_17 + short_25_18 + short_25_19 + short_25_20 + short_25_21 + short_25_22 + short_25_23 + short_25_24 + short_25_25 + short_25_26]
+  ask node 26 [set short_Xm short_26_0 + short_26_1 + short_26_2 + short_26_3 + short_26_4 + short_26_5 + short_26_6 + short_26_7 + short_26_8 + short_26_9 + short_26_10 + short_26_11 + short_26_12 + short_26_13 + short_26_14 + short_26_15 + short_26_16 + short_26_17 + short_26_18 + short_26_19 + short_26_20 + short_26_21 + short_26_22 + short_26_23 + short_26_24 + short_26_25 + short_26_26]
+
+;  ask node 0 [show short_i]
+;  ask node 1 [show short_TR]
+;  ask node 2 [show short_R]
+;  ask node 3 [show short_F]
+;  ask node 4 [show short_T]
+;  ask node 5 [show short_n]
+;  ask node 6 [show short_S]
+;  ask node 7 [show short_Cp]
+;  ask node 8 [show short_pHg]
+;  ask node 9 [show short_Xg]
+;  ask node 10 [show short_Cc]
+;  ask node 11 [show short_foc]
+;  ask node 12 [show short_pHw]
+;  ask node 13 [show short_Tw]
+;  ask node 14 [show short_pw]
+;  ask node 15 [show short_Ew]
+;  ask node 16 [show short_Iw]
+;  ask node 17 [show short_Aw]
+;  ask node 18 [show short_DOC]
+;  ask node 19 [show short_pHm]
+;  ask node 20 [show short_Tm]
+;  ask node 21 [show short_pm]
+;  ask node 22 [show short_Em]
+;  ask node 23 [show short_Im]
+;  ask node 24 [show short_Am]
+;  ask node 25 [show short_t]
+;  ask node 26 [show short_Xm]
+
+  ask nodes [set short short_i + short_TR + short_R + short_F + short_T + short_n + short_S + short_Cp + short_pHg + short_Xg + short_Cc + short_foc + short_pHw + short_Tw + short_pw + short_Ew + short_Iw + short_Aw + short_DOC + short_pHm + short_Tm + short_pm + short_Em + short_Im + short_Am + short_t + short_Xm]
+ ; ask nodes [show short]
   set pathlength sum[short] of nodes
+  print "Summation of the shortest pathlengths of all the nodes in the network"
   show pathlength
 
-    ask nodes [ set path path0 + path1 + path2 + path3 + path4 + path5 + path6 + path7 + path8 + path9 + path10 + path11 + path12 + path13 + path14 + path15 + path16 + path17 + path18 + path19 + path20 + path21 + path22 + path23 + path24 + path25 ]
-  ask nodes [ show path ]
- set pathposs sum[path] of nodes
- show pathposs
+;  ask nodes [set path path0 + path1 + path2 + path3 + path4 + path5 + path6 + path7 + path8 + path9 + path10 + path11 + path12 + path13 + path14 + path15 + path16 + path17 + path18 + path19 + path20 + path21 + path22 + path23 + path24 + path25 + path26]
+;  set possiblepaths sum[path] of nodes
+;  show possiblepaths
+
+  print "Characteristic pathlength of the network"
+  set CharPL (pathlength)/(N * (N - 1))
+  show CharPL
 
 ;;;; Clustering coefficient ;;
 
@@ -2621,6 +1607,10 @@ ask node 24 [
   ask node 23 [ set cluster23 [nw:clustering-coefficient] of node 23 ]
   ask node 24 [ set cluster24 [nw:clustering-coefficient] of node 24 ]
   ask node 25 [ set cluster25 [nw:clustering-coefficient] of node 25 ]
+  ask node 26 [ set cluster25 [nw:clustering-coefficient] of node 26 ]
+
+print "Clustering coefficient of all factors in the NoF"
+
   ask node 0 [ show cluster0 ]
   ask node 1 [ show cluster1 ]
   ask node 2 [ show cluster2 ]
@@ -2647,11 +1637,14 @@ ask node 24 [
   ask node 23 [ show cluster23 ]
   ask node 24 [ show cluster24 ]
   ask node 25 [ show cluster25 ]
-  set meancluster mean [nw:clustering-coefficient] of nodes
-  show meancluster
+  ask node 26 [ show cluster26 ]
+
+  set Mean_cluster mean[nw:clustering-coefficient] of nodes
+  print "Clustering coefficient of the network"
+  show Mean_cluster
 
 
-reset-ticks
+  reset-ticks
 
 
 end
@@ -2665,6 +1658,7 @@ end
 ;;;;;;;;;;;;;;;;;;;;;;
 ;;; Main Procedure ;;;
 ;;;;;;;;;;;;;;;;;;;;;;
+
 
 to go-random
   ;; if the below condition is true then we have a fully disconnected network and we need to stop
@@ -2683,9 +1677,90 @@ to go-random
   tick
 end
 
+to go-target-id
+  ;; if the below condition is true then we have a fully disconnected network and we need to stop
+  if (count links = 0) [
+    display
+    user-message "Network is fully disconnected. No more edges can be removed."
+    stop
+  ]
 
 
+  remove-edge-attack-id
+  find-all-components-new
+  color-giant-component
+  ask links [ set color [color] of end1 ]  ;; recolor all edges
+  layout-1
+  tick
+end
 
+to go-target-od
+  ;; if the below condition is true then we have a fully disconnected network and we need to stop
+  if (count links = 0) [
+    display
+    user-message "Network is fully disconnected. No more edges can be removed."
+    stop
+  ]
+
+
+  remove-edge-attack-od
+  find-all-components-new
+  color-giant-component
+  ask links [ set color [color] of end1 ]  ;; recolor all edges
+  layout-1
+  tick
+end
+
+to go-target-cc
+  ;; if the below condition is true then we have a fully disconnected network and we need to stop
+  if (count links = 0) [
+    display
+    user-message "Network is fully disconnected. No more edges can be removed."
+    stop
+  ]
+
+
+  remove-edge-attack-cc
+  find-all-components-new
+  color-giant-component
+  ask links [ set color [color] of end1 ]  ;; recolor all edges
+  layout-1
+  tick
+end
+
+to go-target-bc
+  ;; if the below condition is true then we have a fully disconnected network and we need to stop
+  if (count links = 0) [
+    display
+    user-message "Network is fully disconnected. No more edges can be removed."
+    stop
+  ]
+
+
+  remove-edge-attack-bc
+  find-all-components-new
+  color-giant-component
+  ask links [ set color [color] of end1 ]  ;; recolor all edges
+  layout-1
+  tick
+end
+
+to go-target-ec
+  ;; if the below condition is true then we have a fully disconnected network and we need to stop
+  if (count links = 0) [
+    display
+    user-message "Network is fully disconnected. No more edges can be removed."
+    stop
+  ]
+
+
+  remove-edge-attack-ec
+  find-all-components-new
+  color-giant-component
+  ask links [ set color [color] of end1 ]  ;; recolor all edges
+  layout-1
+  tick
+end
 
 ;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Edge removals ;;;
@@ -2708,6 +1783,93 @@ to remove-edge-random
     ]
 
 end
+
+;; pick a node and remove its link based on in-degree centrality
+
+to remove-edge-attack-id
+
+    ask nodes [ set indeg count my-in-links]
+    ask one-of nodes with [indeg = max [count my-in-links] of nodes] [
+    ifelse (count my-in-links = 0) [
+    remove-edge-attack-id
+    ]
+
+    [set color red
+    ask my-links [die]
+            ]
+    ]
+
+end
+
+;; pick a node and remove its link based on out-degree centrality
+
+to remove-edge-attack-od
+
+    ask nodes [ set outdeg count my-out-links]
+    ask one-of nodes with [outdeg = max [count my-out-links] of nodes] [
+    ifelse (count my-out-links = 0) [
+    remove-edge-attack-od
+    ]
+
+    [set color red
+    ask my-links [die]
+            ]
+    ]
+
+end
+
+;; pick a node and remove its link based on closeness centrality
+
+to remove-edge-attack-cc
+
+ ask nodes [ set closeness nw:closeness-centrality ]
+    ask one-of nodes with [closeness = max [nw:closeness-centrality] of nodes] [
+    ifelse (count my-links = 0) [
+    remove-edge-attack-cc
+    ]
+
+     [set color red
+    ask my-links [die]
+            ]
+    ]
+
+end
+
+;; pick a node and remove its link based on betweenness centrality
+
+to remove-edge-attack-bc
+
+ ask nodes [ set betweenness nw:betweenness-centrality ]
+    ask one-of nodes with [betweenness = max [nw:betweenness-centrality] of nodes] [
+    ifelse (count my-links = 0) [
+    remove-edge-attack-bc
+    ]
+
+     [set color red
+    ask my-links [die]
+            ]
+    ]
+
+end
+
+;; pick a node and remove its link based on eigenvector centrality
+
+to remove-edge-attack-ec
+
+ ask nodes [ set eigenvector nw:eigenvector-centrality ]
+    ask one-of nodes with [eigenvector = max [nw:eigenvector-centrality] of nodes] [
+    ifelse (count my-links = 0) [
+    remove-edge-attack-ec
+    ]
+
+     [set color red
+    ask my-links [die]
+            ]
+    ]
+
+end
+
+
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -2801,7 +1963,7 @@ end
 
 
 to layout
-  layout-spring nodes links 0.2 5 0.2
+  layout-spring nodes links 0.2 8 0.2
 
 end
 
